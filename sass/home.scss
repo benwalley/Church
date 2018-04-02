@@ -1,0 +1,55 @@
+$green:#62c6ac;
+
+$first: 'Montserrat', sans-serif;
+$second: 'Arimo', sans-serif;
+$third: 'Nunito', sans-serif;
+$fourth: 'Oxygen', sans-serif;
+$mainFont:$third;
+
+body{
+	margin:0;
+	font-family:$first;
+	font-family:$second;
+	font-family:$third;
+	font-family:$fourth;
+}
+.navbar{
+	overflow:hidden;
+	width:100vw;
+	height:10vh;
+	background:$green;
+	display:grid;
+	grid-template-columns:auto 1fr;
+	grid-gap:1vw;
+}
+
+.logo{
+	height:100%;
+	padding-top:2vw;
+	padding-left:2vw;
+	color:white;
+	float:left;
+}
+
+.logoLarge{
+	font-size:1.5em;
+}
+
+.logoSmall{
+	font-size:.75em;
+}
+
+.logoLast{
+	font-weight:bold;
+}
+
+.navLinks{
+	width:50vw;
+	height:100%;
+	float:right;
+}
+
+.navLink{
+	text-transform:uppercase;
+	float:left;
+}

@@ -1,11 +1,13 @@
 $green:#62c6ac;
 
-$gradient: linear-gradient(#6F5639, #D3C18C);
+$gradient: linear-gradient(rgb(172, 140, 44), rgb(134, 91, 38));
 $reverse-gradient: linear-gradient(#e4cea9, #795b29);
-$yellow:#D3C18C;
-$brown:#6F5639;
-$blackish:#292928;
-$navbar-words:#9096A7;
+$yellow:#e9dcbf;
+$blue:#072169;
+$gold:#957502;
+$navbar-words:#f5f3f0;
+$green:#3bc095;
+
 
 $first: 'Montserrat', sans-serif;
 $second: 'Arimo', sans-serif;
@@ -23,8 +25,7 @@ $mainFont:$third;
 
 body{
 	margin:0;
-	height:200vh;
-	width:100vh;
+	padding-top:100vh;
 	overflow-x:hidden;
 
 }
@@ -44,12 +45,22 @@ body{
 .navbar{
 	overflow:hidden;
 	width:100vw;
-	height:7vh;
-	background:$blackish;
+
+	background:none;
 	display:grid;
 	grid-template-columns:auto 1fr;
 	grid-gap:1vw;
 	position:fixed;
+	top:0;
+	z-index: 5;
+
+	-moz-transition: all 1s ease .2s;
+    /* WebKit */
+    -webkit-transition: all 1s ease .2s;
+    /* Opera */
+    -o-transition: all 1s ease .2s;
+    /* Standard */
+    transition: all .5s ease .06s;
 
 	
 }
@@ -72,6 +83,7 @@ body{
 
 .logoLast{
 	font-weight:bold;
+	color:#3bc095;
 }
 
 .navLinks{
@@ -79,6 +91,7 @@ body{
 	grid-template-columns: repeat(5, 1fr);
 	grid-column-gap: 10px;
 
+	
 
 }
 
@@ -87,15 +100,25 @@ body{
 	text-transform:uppercase;
 	text-align:center;
 	text-decoration:none;
-	color:$navbar-words ;
+	color:$navbar-words;
+
+	.activeLink{
+		padding:.3em;
+		border-bottom:2px solid $green;
+	}
 }
 
 
 
 .mainImage{
 	width:100vw;
-	height:70vh;
+	height:100vh;
 	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-3;
+
 }
 
 .image{
@@ -108,21 +131,106 @@ body{
   	background-position: center bottom;
 
 
+
 }
 
 .imageCoverColor{
 	float:left;
 	width:100%;
 	height:100%;
-	background:#353044d1;
+	//background:#000000c7;
+	background:#002579c7;
 }
 
+.imageButtons{
+	width:100vw;
+	display:grid;
+	grid-template-columns:25vw 1fr 1fr 25vw;
+	grid-gap:6vw;
+	left:0;
+	top:50vh;
+	z-index: 10;
+	position:absolute;
+	.imageButton{
+		padding:1vh;
+		font-size:1.6em;
+		color:#072169;
+		border:2px solid #957502;
+		border-radius:.6vh;
+		text-align:center;
+		cursor:pointer;
+		font-weight:bold;
+		background:#957502;
+		z-index:10;
+	}
+
+	
+}
+
+.imageButton:hover{
+	background:none;
+	color:#957502;
+}
+
+.imageButton:focus{
+	outline:0;
+}	
+
+.homeVerse{
+	width:40vw;
+	text-align:center;
+	top:25vh;
+	left:30vw;
+	position:absolute;
+	z-index:10;
+	font-size:2em;
+	color:#B27D00;
+	font-family:$first;
+	text-shadow:1px 1px 1px #4f3608;
+
+	.ref{
+		font-size:.7em;
+		padding:5px;
+	}
+
+}
+
+.homeBar{
+	background:#31ab8b;
+	width:100vw;
+
+	height:2.5vh;
+	float:left;
+
+}
+
+
 .homeSchedule{
-	padding:5vw;
-	width:100%;
-	background:#f5f2ed;
-	color:#754a02;
+	position:absolute;
+	top:110vh;
+	left:30vw;
+	padding:8vw;
+	border:7px solid #957502;
+	border-radius:.2em;
+	width:60vw;
+	background:#dfdfdf;
+	color:#181818;
 	font-family:$third;
+
+}
+
+.about{
+	float:left;
+	width:100vw;
+	height:10vh;
+	background:#242222;
+}
+
+.mainBackground{
+	height:120vh;
+	float:left;
+	background:white;
+	width:100vw;
 }
 
 .scheduleTitle{
@@ -146,6 +254,7 @@ body{
 	grid-gap:1vw 5vw;
 	padding:5vw;
 	width:100%;
+
 	
 	
 }
@@ -193,23 +302,7 @@ body{
 	width:100%;
 }
 
-.imageButtons{
-	display:grid;
-	grid-template-columns:25vw 1fr 1fr 25vw;
-	grid-gap:5vw;
-	position:absolute;
-	left:0;
-	top:30vh;
-	.imageButton{
-		padding:2vh;
-		font-size:1.5em;
-		color:#ab966a;
-		border:2px solid #ab966a;
-		border-radius:1vw;
-		text-align:center;
-		cursor:pointer;
-	}
-}
+
 
 .copyright{
 	text-align:center;

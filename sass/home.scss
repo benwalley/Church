@@ -54,11 +54,11 @@ body{
 	top:0;
 	z-index: 5;
 
-	-moz-transition: all 1s ease .2s;
+	-moz-transition: all .5s ease .06s;
     /* WebKit */
-    -webkit-transition: all 1s ease .2s;
+    -webkit-transition: all .5s ease .06s;
     /* Opera */
-    -o-transition: all 1s ease .2s;
+    -o-transition: all .5s ease .06s;
     /* Standard */
     transition: all .5s ease .06s;
 
@@ -102,9 +102,16 @@ body{
 	text-decoration:none;
 	color:$navbar-words;
 
-	.activeLink{
+	.navLinkSpan{
 		padding:.3em;
-		border-bottom:2px solid $green;
+		border-bottom:0px solid $green;
+		-moz-transition: all .1s ease-in .1s;
+	    /* WebKit */
+	    -webkit-transition: all .1s ease-in .1s;
+	    /* Opera */
+	    -o-transition: all .1s ease-in .1s;
+	    /* Standard */
+	    transition: all .1s ease-in .1s;
 	}
 }
 
@@ -117,7 +124,7 @@ body{
 	position:absolute;
 	top:0;
 	left:0;
-	z-index:-3;
+	z-index:1;
 
 }
 
@@ -139,7 +146,8 @@ body{
 	width:100%;
 	height:100%;
 	//background:#000000c7;
-	background:#002579c7;
+	//background:#1e2e53c7;
+	background:#0f327ec7;
 }
 
 .imageButtons{
@@ -162,6 +170,14 @@ body{
 		font-weight:bold;
 		background:#957502;
 		z-index:10;
+
+		-moz-transition: all .1s ease-in .02s;
+	    /* WebKit */
+	    -webkit-transition: all .1s ease-in .02s;
+	    /* Opera */
+	    -o-transition: all .1s ease-in .02s;
+	    /* Standard */
+	    transition: all .1s ease-in .02s;
 	}
 
 	
@@ -209,6 +225,7 @@ body{
 	position:absolute;
 	top:110vh;
 	left:30vw;
+	z-index:2;
 	padding:8vw;
 	border:7px solid #957502;
 	border-radius:.2em;
@@ -229,7 +246,7 @@ body{
 .mainBackground{
 	height:120vh;
 	float:left;
-	background:white;
+	background:#dcdcdc;
 	width:100vw;
 }
 

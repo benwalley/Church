@@ -11,8 +11,16 @@ var currentPage = 0
 navLinks[currentPage].style.borderWidth = "2px"
 
 window.addEventListener("scroll", function(e){
+		navCalc(e);
+});
+
+window.addEventListener("resize", function(e){
+	navCalc(e);
+})
+
+function navCalc(e){
 	if(window.scrollY >= 100 && navColored == false){
-		navbar.style.background = "#242222eb"
+		navbar.style.background = "#111111eb"
 		navColored = true
 	}else if(window.scrollY == 0 && navColored == true){
 		navbar.style.background = "none"
@@ -27,14 +35,10 @@ window.addEventListener("scroll", function(e){
 	}else{
 		mainImage.style.display = "block"
 	}
-	var yClip = ((window.innerHeight-window.scrollY) + moveY/2) + "px"
+	var yClip = ((window.innerHeight-window.scrollY) + moveY/2 + 1) + "px"
 
 	mainImage.style.clipPath = "polygon(0 0, 100% 0%, 100% " + yClip + ", 0 "+ yClip +")"
-
-	// move schedule div
-	schedule.style.top = ((window.innerHeight*1.1) - (window.scrollY/3.4)) + "px"
-
-})
+}
 
 
 for(var i = 0; i < navLinks.length; i++){

@@ -21,63 +21,6 @@ body {
   width: 100vw;
   overflow-x: hidden; }
 
-.navbar {
-  overflow: hidden;
-  width: 100vw;
-  background: none;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 1vw;
-  position: fixed;
-  top: 0;
-  z-index: 5;
-  -moz-transition: all .5s ease .06s;
-  /* WebKit */
-  -webkit-transition: all .5s ease .06s;
-  /* Opera */
-  -o-transition: all .5s ease .06s;
-  /* Standard */
-  transition: all .5s ease .06s; }
-
-.logo {
-  height: 100%;
-  padding: 1vw;
-  padding-right: 8vw;
-  color: #f5f3f0;
-  float: left; }
-
-.logoLarge {
-  font-size: 1.5em; }
-
-.logoSmall {
-  font-size: .75em; }
-
-.logoLast {
-  font-weight: bold;
-  color: #3bc095; }
-
-.navLinks {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 10px; }
-
-.navLink {
-  padding-top: 2vh;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  color: #f5f3f0; }
-  .navLink .navLinkSpan {
-    padding: .3em;
-    border-bottom: 0px solid #3bc095;
-    -moz-transition: all .1s ease-in .1s;
-    /* WebKit */
-    -webkit-transition: all .1s ease-in .1s;
-    /* Opera */
-    -o-transition: all .1s ease-in .1s;
-    /* Standard */
-    transition: all .1s ease-in .1s; }
-
 .mainImage {
   width: 100vw;
   height: 100vh;
@@ -89,7 +32,7 @@ body {
 
 .image {
   width: 100%;
-  background-image: url("../assets/images/worship.jpg");
+  background-image: url("../assets/images/bible.jpg");
   height: 100%;
   background-size: cover;
   -ms-background-position-x: center;
@@ -100,28 +43,26 @@ body {
   float: left;
   width: 100%;
   height: 100%;
-  background: #0f327ec7; }
+  background: #0e0e0ec2; }
 
 .imageButtons {
   width: 100vw;
   display: grid;
-  grid-template-columns: 25vw 1fr 1fr 25vw;
-  grid-gap: 6vw;
+  grid-template-columns: 20vw 1fr 1fr 20vw;
+  grid-gap: 10vw;
   left: 0;
-  top: 50vh;
+  top: 65vh;
   z-index: 10;
   position: absolute; }
   .imageButtons .imageButton {
-    padding: 1vh;
-    font-size: 1.6em;
-    color: #072169;
-    border: 2px solid #957502;
-    border-radius: .6vh;
-    text-align: center;
-    cursor: pointer;
+    border: 2px solid white;
+    background: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.3em;
     font-weight: bold;
-    background: #957502;
-    z-index: 10;
+    padding: 3vh 1vh;
+    border-radius: 10vh;
     -moz-transition: all .1s ease-in .02s;
     /* WebKit */
     -webkit-transition: all .1s ease-in .02s;
@@ -131,57 +72,126 @@ body {
     transition: all .1s ease-in .02s; }
 
 .imageButton:hover {
-  background: none;
-  color: #957502; }
+  background: #3bc08f; }
 
 .imageButton:focus {
   outline: 0; }
 
 .homeVerse {
-  width: 40vw;
+  width: 60vw;
   text-align: center;
-  top: 25vh;
-  left: 30vw;
+  top: 20vh;
+  left: 20vw;
   position: absolute;
   z-index: 10;
-  font-size: 2em;
-  color: #B27D00;
+  font-size: 1.8em;
+  color: #3bc08f;
   font-family: "Montserrat", sans-serif;
-  text-shadow: 1px 1px 1px #4f3608; }
-  .homeVerse .ref {
-    font-size: .7em;
-    padding: 5px; }
+  text-shadow: 1px 1px 1px #4f3608;
+  text-transform: uppercase;
+  letter-spacing: .7vw; }
 
-.homeBar {
-  background: #31ab8b;
-  width: 100vw;
-  height: 2.5vh;
-  float: left; }
+.homeLarge {
+  font-weight: bold;
+  font-size: 6rem;
+  color: #f6f6f6;
+  padding: 2.6vw;
+  letter-spacing: .2em; }
 
-.homeSchedule {
+.arrow {
   position: absolute;
-  top: 110vh;
-  left: 30vw;
-  z-index: 2;
-  padding: 8vw;
-  border: 7px solid #957502;
-  border-radius: .2em;
-  width: 60vw;
-  background: #dfdfdf;
-  color: #181818;
-  font-family: "Nunito", sans-serif; }
+  width: 10vw;
+  left: 45vw;
+  top: 90vh;
+  height: 10vh;
+  font-size: 3.3em;
+  color: white;
+  text-align: center; }
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
 
 .about {
   float: left;
   width: 100vw;
-  height: 10vh;
-  background: #242222; }
+  height: 140vh;
+  background: url("../assets/images/piano.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.aboutSpacer {
+  width: 100%;
+  height: 50%;
+  float: left;
+  background: #2d2828d9; }
+
+.aboutBottom {
+  width: 100%;
+  height: 50%;
+  float: left;
+  background: #fff8ed; }
 
 .mainBackground {
   height: 120vh;
   float: left;
   background: #dcdcdc;
   width: 100vw; }
+
+.homeBar {
+  width: 100vw;
+  height: 20px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 100vh; }
+
+.homeSchedule {
+  float: left;
+  background: #fff8ed;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  font-family: "Nunito", sans-serif; }
 
 .scheduleTitle {
   font-size: 1.7em;
@@ -190,6 +200,58 @@ body {
 .schedule li {
   padding: 1vh;
   display: block; }
+
+.weAre {
+  float: left;
+  width: 50vw;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: .1em; }
+  .weAre .Text {
+    margin-top: 10vh;
+    color: #FFB84B;
+    font-family: "Arimo", sans-serif;
+    margin-bottom: 8vh; }
+  .weAre .larger {
+    font-size: 1.35em;
+    font-weight: bold;
+    padding-bottom: 10px; }
+
+.scheduleLeft {
+  float: left;
+  background: #427CBD;
+  width: 50vw;
+  height: 100%;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%); }
+
+.arpcImage {
+  width: 10vw;
+  margin-left: 40%;
+  float: left; }
+
+.weAreArpc {
+  width: 80%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 3vh;
+  color: #282828;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold; }
+  .weAreArpc .larger {
+    font-size: 1.2em;
+    font-family: "Arimo", sans-serif; }
+  .weAreArpc a {
+    text-decoration: underline;
+    color: blue; }
+
+.scheduleRight {
+  float: left;
+  width: 45%;
+  height: 100%; }
 
 .homeSection {
   display: grid;

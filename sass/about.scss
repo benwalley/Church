@@ -1,0 +1,23 @@
+
+$green:#38be94;
+$blue:#427CBD;
+$yellow:#FFB84B;
+$orange:#FF8A4B;
+$grey:#282828;
+$white:#fffaf0;
+
+body{
+	background:#424242;
+	overflow-x:hidden;
+	
+}
+
+.verse{
+	float:left;
+	padding:5vw 30vw;
+	width:100vw;
+	min-height:90vh;
+	text-align:center;
+	color:$blue;
+	font-size:2em;
+}

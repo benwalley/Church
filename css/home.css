@@ -59,6 +59,7 @@ body {
     background: none;
     text-transform: uppercase;
     color: white;
+    text-align: center;
     font-size: 1.3em;
     font-weight: bold;
     padding: 3vh 1vh;
@@ -86,7 +87,7 @@ body {
   z-index: 10;
   font-size: 1.8em;
   color: #3bc08f;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-shadow: 1px 1px 1px #4f3608;
   text-transform: uppercase;
   letter-spacing: .7vw; }
@@ -161,15 +162,22 @@ body {
 
 .aboutSpacer {
   width: 100%;
-  height: 50%;
+  height: 40%;
   float: left;
   background: #2d2828d9; }
 
 .aboutBottom {
   width: 100%;
-  height: 50%;
+  height: 60%;
   float: left;
-  background: #fff8ed; }
+  background: #fffaf0;
+  box-shadow: 0px 0px 4px 2px #2e2e2e; }
+  .aboutBottom .title {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding: 2vw; }
 
 .mainBackground {
   height: 120vh;
@@ -185,73 +193,95 @@ body {
   left: 0;
   top: 100vh; }
 
-.homeSchedule {
-  float: left;
-  background: #fff8ed;
-  width: 100vw;
-  height: 100vh;
-  color: black;
-  font-family: "Nunito", sans-serif; }
-
-.scheduleTitle {
-  font-size: 1.7em;
-  text-transform: uppercase; }
-
-.schedule li {
-  padding: 1vh;
-  display: block; }
-
 .weAre {
   float: left;
-  width: 50vw;
+  width: 100vw;
   padding: 20px;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: center;
-  line-height: 2em;
-  letter-spacing: .1em; }
+  line-height: 2.5em;
+  letter-spacing: .15em;
+  color: #b37618;
+  text-shadow: 2px 2px 1px #181818; }
   .weAre .Text {
     margin-top: 10vh;
-    color: #FFB84B;
-    font-family: "Arimo", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin-bottom: 8vh; }
   .weAre .larger {
     font-size: 1.35em;
     font-weight: bold;
     padding-bottom: 10px; }
 
-.scheduleLeft {
-  float: left;
-  background: #427CBD;
-  width: 50vw;
-  height: 100%;
-  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%); }
-
 .arpcImage {
-  width: 10vw;
-  margin-left: 40%;
+  width: 4vw;
+  margin-right: 2vw;
+  margin-left: 20%;
   float: left; }
 
 .weAreArpc {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   float: left;
-  margin-top: 3vh;
   color: #282828;
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-weight: bold; }
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  padding: 1vw;
+  padding-bottom: 6vh;
+  background: #fffaf0; }
   .weAreArpc .larger {
-    font-size: 1.2em;
-    font-family: "Arimo", sans-serif; }
+    font-size: 1.2em; }
   .weAreArpc a {
     text-decoration: underline;
     color: blue; }
 
-.scheduleRight {
+.homeSchedule {
   float: left;
-  width: 45%;
-  height: 100%; }
+  background: #76b6ff;
+  background: #76b6ff;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  font-family: "Open Sans", sans-serif; }
+
+.scheduleRight {
+  width: 50vw;
+  float: right;
+  overflow: hidden;
+  padding-right: 10vw;
+  padding-top: 10vh; }
+  .scheduleRight .Title {
+    margin-top: 10vh;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    color: #FF8A4B;
+    text-transform: uppercase; }
+  .scheduleRight .Times .time {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #427CBD; }
+  .scheduleRight .Times .description {
+    padding-top: 1vw;
+    color: white; }
+  .scheduleRight .Times li {
+    background: #38be94;
+    list-style-type: none;
+    padding: 1.12vw;
+    margin: 1vw; }
+
+.scheduleLeft {
+  width: 50%;
+  height: 100%;
+  float: left; }
+  .scheduleLeft .scheduleImage {
+    width: 60%;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    transform: rotate(10deg);
+    box-shadow: 2px 2px 7px 2px #3c3c3c; }
 
 .homeSection {
   display: grid;
@@ -277,24 +307,49 @@ body {
   border: 1px solid black;
   background: lightblue; }
 
-.directions {
-  background: lightgrey; }
-
 .image {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3; }
 
-.footer {
-  height: 5vw;
-  background: linear-gradient(#e4cea9, #795b29);
-  width: 100%; }
+.directions {
+  height: 90vh;
+  float: left;
+  background: #427CBD;
+  width: 100vw;
+  box-shadow: 0px 0px 5px #575757; }
+  .directions .Right {
+    width: 40%;
+    height: 100%;
+    float: right; }
+    .directions .Right .address {
+      text-align: center;
+      color: white;
+      font-size: 1.2em; }
+    .directions .Right .Title {
+      text-transform: uppercase;
+      color: #282828;
+      text-align: center;
+      margin-top: 15vh;
+      font-size: 3em;
+      margin-bottom: 10vh; }
 
-.copyright {
-  text-align: center;
-  padding-top: 2vw; }
-  .copyright a {
-    text-decoration: none; }
+.mapLink {
+  padding: 1vh;
+  font-size: 1.1rem; }
+  .mapLink a {
+    color: blue; }
+  .mapLink i {
+    color: #970909;
+    font-size: 1.2em; }
+
+#map {
+  width: 50%;
+  height: 80%;
+  margin-left: 10vh;
+  margin-top: 12vh;
+  float: left;
+  box-shadow: 1px 1px 5px 1px #7f7f7f; }
 
 /*# sourceMappingURL=home.css.map */

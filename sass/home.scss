@@ -11,18 +11,14 @@ $blue:#427CBD;
 $yellow:#FFB84B;
 $orange:#FF8A4B;
 $grey:#282828;
-$white:#fff8ed;
+$white:#fffaf0;
 
 //#0189c9
 
 
 
-
-$first: 'Montserrat', sans-serif;
-$second: 'Arimo', sans-serif;
-$third: 'Nunito', sans-serif;
+$first:'Open Sans', sans-serif;
 $fourth: 'Oxygen', sans-serif;
-$mainFont:$third; 
 
 
 *{
@@ -103,6 +99,7 @@ body{
 		background:none;
 		text-transform:uppercase;
 		color:white;
+		text-align:center;
 		font-size:1.3em;
 		font-weight:bold;
 		padding:3vh 1vh;
@@ -235,16 +232,24 @@ body{
 
 .aboutSpacer{
 	width:100%;
-	height:50%;
+	height:40%;
 	float:left;
 	background:#2d2828d9;
 }
 
 .aboutBottom{
 	width:100%;
-	height:50%;
+	height:60%;
 	float:left;
 	background:$white;
+	box-shadow:0px 0px 4px 2px #2e2e2e;
+	.title{
+		width:100%;
+		text-align:center;
+		font-size:4em;
+		text-transform:uppercase;
+		padding:2vw;
+	}
 }
 
 
@@ -265,48 +270,24 @@ body{
 }
 
 
-.homeSchedule{
 
-	float:left;
-	background:$white;
-	width:100vw;
-	height:100vh;
-
-	color:black;
-	font-family:$third;
-
-}
-
-.scheduleTitle{
-	font-size:1.7em;
-	
-	text-transform:uppercase;
-}
-
-.schedule{
-	li{
-		padding:1vh;
-		display:block;
-
-	}
-}
 
 .weAre{
 	float:left;
-	width:50vw;
-
-
+	width:100vw;
 	padding:20px;
 	text-transform:uppercase;
-	font-size:1em;
+	font-size:1.2em;
 	text-align:center;
-	line-height:2em;
-	letter-spacing:.1em;
+	line-height:2.5em;
+	letter-spacing:.15em;
+	color:#b37618;	
+	text-shadow:2px 2px 1px #181818;
 
 	.Text{	
 		margin-top:10vh;
-		color:$yellow;
-		font-family:$second;
+		
+		font-family:$first;
 		margin-bottom:8vh;
 	}
 
@@ -318,38 +299,34 @@ body{
 
 }
 
-.weAreTitle{
-	
-}
 
-.scheduleLeft{
-	float:left;
-	background:$blue;
-	width:50vw;
-	height:100%;
-	clip-path:polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%)
-}
+
+
+
 .arpcImage{
-	width:10vw;
-	margin-left:40%;
+	width:4vw;
+	margin-right:2vw;
+	margin-left:20%;
 
 	float:left;	
 
 }
 
 .weAreArpc{
-	width:80%;
-	margin-left:10%;
+	width:100%;
 	float:left;
-	margin-top:3vh;
 	color:$grey;
-	text-align:center;
-	font-family:$third;
+	text-align:left;
+	font-family:$first;
 	font-weight:bold;
+	font-family:$first;
+	padding:1vw;
+	padding-bottom:6vh;
+	background:$white;
 
 	.larger{
 		font-size:1.2em;
-		font-family:$second;
+
 	}
 
 
@@ -360,12 +337,81 @@ body{
 	}
 }
 
-.scheduleRight{
+.homeSchedule{
 
 	float:left;
-	width:45%;
-	height:100%;
+	background:#76b6ff;
+	background:#76b6ff;
+	width:100vw;
+	height:100vh;
+
+	color:black;
+	font-family:$first;
+
 }
+
+
+
+.scheduleRight{
+
+	width:50vw;
+	float:right;
+	overflow:hidden;
+	padding-right:10vw;
+	padding-top:10vh;
+
+	.Title{
+		margin-top:10vh;
+		font-weight:bold;
+		font-size:2em;
+		text-align:center;
+		//color:$blue;
+		color:$orange;
+		text-transform:uppercase;
+	}
+
+	.Times{
+		.time{
+			font-size:1.3em;
+			font-weight:bold;
+			text-transform:uppercase;
+			color:$blue;
+
+		}
+
+		.description{
+			padding-top:1vw;
+			color:white;
+		}
+
+		li{
+			background:$green;
+			list-style-type:none;
+			padding:1.12vw;
+			margin:1vw;
+
+		}
+	}
+}
+
+.scheduleLeft{
+	width:50%;
+	height:100%;
+	float:left;
+
+	.scheduleImage{
+		width:60%;
+		margin-left:20vh;
+		margin-top:10vh;
+		transform:rotate(10deg);
+		box-shadow:2px 2px 7px 2px #3c3c3c;
+	}
+}
+
+
+
+
+
 
 
 
@@ -404,13 +450,9 @@ body{
 	background:lightblue;
 }
 
-.map{
-	
-}
 
-.directions{
-	background:lightgrey;
-}
+
+
 
 .image{
 	grid-column-start:1;
@@ -419,22 +461,64 @@ body{
 	grid-row-end:3;
 }
 
-.footer{
-	height:5vw;
-	background:$reverse-gradient;
-	width:100%;
-}
 
 
 
-.copyright{
-	text-align:center;
-	padding-top:2vw;
-	a{
-	text-decoration:none;
+
+
+
+.directions{
+	height:90vh;
+	float:left;
+	background:$blue;
+	width:100vw;
+	box-shadow:0px 0px 5px #575757;
+
+	.Right{
+		width:40%;
+		height:100%;
+		float:right;
+
+		.address{
+			text-align:center;
+			color:white;
+			font-size:1.2em;
+		}
+
+		.Title{
+			text-transform:uppercase;
+			color:#282828;
+			text-align:center;
+			margin-top:15vh;
+			font-size:3em;
+			margin-bottom:10vh;
+		}
 	}
 }
 
+.mapLink{
+	padding:1vh;
+	font-size:1.1rem;
+	
+	a{
+		color:blue;
+	}
 
+	i{
+		color:#970909;
+		font-size:1.2em;
+	}
+
+}
+
+
+#map{
+	width:50%;
+	height:80%;
+	margin-left:10vh;
+	margin-top:12vh;
+	float:left;
+	box-shadow:1px 1px 5px 1px #7f7f7f;
+}
 
 

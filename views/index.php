@@ -22,8 +22,8 @@
 				<div class = "image"></div>
 				<div class = "imageButtons">
 					<div></div>
-					<button class = "imageButton imageAbout">About Us</button>
-					<button class = "imageButton imageDirections">Get Directions</button>
+					<a href = "#directions" class = "imageButton imageAbout">About Us</a>
+					<a href = "#directions" class = "imageButton imageDirections">Get Directions</a>
 					<div></div>
 
 				</div>
@@ -41,10 +41,36 @@
 			<div class = "homeSchedule">
 
 				<div class = "scheduleLeft">
+					<img class = "scheduleImage" src="../assets/images/pastor1.1.jpg">
+				</div>
 
+				<div class = "scheduleRight">
+					<!-- <div class = "Title">Sunday Morning</div>
+					<ul class = "Times">
+						<li>
+							<div class = "time">10:30 - 11:00: Coffee & Fellowship</div>
+							<div class = "description">Join us beforehand for a time of coffee and Fellowship</div>
+						</li>
+						<li>
+							<div class = "time">11:00 - 11:45: Sunday School Classes</div>
+							<div class = "description">We have Sunday School classes for all ages</div>
+						</li>	
+						<li>
+							<div class = "time">12:15 - 1:30: Worship</div>
+							<div class = "description">Worship: including singing, and preaching.</div>
+						</li>						
 						
-						
+					</ul>
+					<a href="#directions">Directions</a> -->
+				</div>
+		<!-- 		<div class = "homeBar"></div> -->
+				
 
+				
+			</div>
+
+			<div class = "about">
+				<div class = "aboutSpacer">
 					<div class = "weAre">
 						<!-- <DIV class = "Title">We Are</DIV> -->
 						<div class = "Text">
@@ -54,31 +80,46 @@
 							<I>reaching</I> the lost with the gospel of grace. <br>
 						</div>
 					</div>
-
-					<a href="http://arpchurch.org">
-						<img class = "arpcImage" src="../assets/images/arpc.png">
-					</a>
-					<div class = "weAreArpc">
-						<span class = "larger">Gospel of Grace Church,</span> <br> is a member of the 
-						<a href="http://arpchurch.org">Associate Reformed Presbyterian (ARP)</a>
-					 Church.
 				</div>
+				<div class = "aboutBottom">
+					<!-- <div class = "title">Who we are</div> -->
+					<div class = "title">About us</div>
+
+					
 						
 				</div>
 
-				<div class = "scheduleRight"></div>
-		<!-- 		<div class = "homeBar"></div> -->
-				
+			</div>
+			<div class = "weAreArpc">
+						<a href="http://arpchurch.org">
+							<img class = "arpcImage" src="../assets/images/arpc.png">
+						</a>
+							<span class = "larger">Gospel of Grace Church,</span> <br> is a member of the 
+							<a href="http://arpchurch.org" target = "_blank">Associate Reformed Presbyterian (ARP)</a>
+						 Church.
+					</div>
 
-				
+			<div class = "directions" id = "directions">
+				<!-- <div id = "map"></div> -->
+				<iframe id = "map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=600%20S%20jefferson%20Ave%20Springfield%20M0&key=AIzaSyCJ-0V2LMqjyOCOvCMveZBOxhMsH_gbI-0" allowfullscreen></iframe>
+
+				<div class = "Right">
+					<div class = Title>Location</div>
+
+					<div class = "address">
+						600 S. Jefferson Ave, <br>
+						Springfield, MO 65806 <br>
+						<div class = "mapLink">
+							<a href="https://www.google.com/maps/search/?api=1&query=600%20S%20jefferson%20Ave%20Springfield%20M0" target = "none">Open in google maps </a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
-			<div class = "about">
-				<div class = "aboutSpacer"></div>
-				<div class = "aboutBottom"></div>
-			</div>
 
 			
+
 			
 		
 
@@ -87,6 +128,10 @@
 	</div>
 
 
-<script type="text/javascript" src = "../scripts/home.js"></script>
 
+
+
+
+<script type="text/javascript" src = "../scripts/home.js"></script>
 <?php include 'footer.php'; ?>
+

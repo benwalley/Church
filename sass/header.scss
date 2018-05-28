@@ -10,11 +10,15 @@ $navbar-words:#f5f3f0;
 $green:#3bc095;
 
 
-$first: 'Montserrat', sans-serif;
-$second: 'Arimo', sans-serif;
-$third: 'Nunito', sans-serif;
+$first:'Open Sans', sans-serif;
 $fourth: 'Oxygen', sans-serif;
-$mainFont:$third; 
+
+$green:#38be94;
+$blue:#427CBD;
+$yellow:#FFB84B;
+$orange:#FF8A4B;
+$grey:#282828;
+$white:#fffaf0;
 
 
 *{
@@ -108,4 +112,28 @@ a{
 	    /* Standard */
 	    transition: all .1s ease-in .1s;
 	}
+}
+
+
+.footer{
+	width:100vw;
+	height:10vh;
+	background:$grey;
+	float:left;
+
+
+	.copyright{
+		text-align:center;
+		color:white;
+		padding-top:2vw;
+		
+		a{
+			color:$blue;
+			padding-left:2vw;
+			font-size:1.05rem;
+			text-decoration:underline;
+		}
+	}
+
+
 }

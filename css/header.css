@@ -63,7 +63,7 @@ a {
   color: #f5f3f0; }
   .navLink .navLinkSpan {
     padding: .3em;
-    border-bottom: 0px solid #3bc095;
+    border-bottom: 0px solid #38be94;
     -moz-transition: all .1s ease-in .1s;
     /* WebKit */
     -webkit-transition: all .1s ease-in .1s;
@@ -71,5 +71,20 @@ a {
     -o-transition: all .1s ease-in .1s;
     /* Standard */
     transition: all .1s ease-in .1s; }
+
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background: #282828;
+  float: left; }
+  .footer .copyright {
+    text-align: center;
+    color: white;
+    padding-top: 2vw; }
+    .footer .copyright a {
+      color: #427CBD;
+      padding-left: 2vw;
+      font-size: 1.05rem;
+      text-decoration: underline; }
 
 /*# sourceMappingURL=header.css.map */

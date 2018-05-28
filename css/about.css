@@ -1,0 +1,14 @@
+body {
+  background: #424242;
+  overflow-x: hidden; }
+
+.verse {
+  float: left;
+  padding: 5vw 30vw;
+  width: 100vw;
+  min-height: 90vh;
+  text-align: center;
+  color: #427CBD;
+  font-size: 2em; }
+
+/*# sourceMappingURL=about.css.map */

@@ -1,5 +1,8 @@
 body{
-	background:#181818;
+	background:#424242;
+	overflow-x:hidden;
+	min-height:100vh;
+	margin:0;
 }
 
 
@@ -7,6 +10,7 @@ body{
 	float:left;
 	margin-top:20vh;
 	margin-left:10vw;
+	margin-bottom:10vh;
 	width:80vw;
 	height:70vh;
 

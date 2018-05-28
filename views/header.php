@@ -9,7 +9,9 @@
 
 
 
-	<link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Montserrat:300,400,600|Nunito:300,400,700|Oxygen:300,700" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Montserrat:300,400,600|Nunito:300,400,700|Oxygen:300,700" rel="stylesheet"> -->
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oxygen:300,400,700" rel="stylesheet">
 
 <!-- jQuery -->
 	<script
@@ -40,3 +42,4 @@
 
 
 </body>
+

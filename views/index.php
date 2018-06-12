@@ -113,6 +113,7 @@
 							<a href="https://www.google.com/maps/search/?api=1&query=600%20S%20jefferson%20Ave%20Springfield%20M0" target = "none">Open in google maps </a>
 						</div>
 					</div>
+					<img class = "canopyImage" src="../assets/images/canopy.jpg">
 				</div>
 
 			</div>

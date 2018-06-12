@@ -170,7 +170,7 @@ body {
   width: 100%;
   height: 60%;
   float: left;
-  background: #fffaf0;
+  background: #f0e9d6;
   box-shadow: 0px 0px 4px 2px #2e2e2e; }
   .aboutBottom .title {
     width: 100%;
@@ -206,6 +206,7 @@ body {
   text-shadow: 2px 2px 1px #181818; }
   .weAre .Text {
     margin-top: 10vh;
+    color: #B28409;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 8vh; }
   .weAre .larger {
@@ -229,7 +230,7 @@ body {
   font-family: "Open Sans", sans-serif;
   padding: 1vw;
   padding-bottom: 6vh;
-  background: #fffaf0; }
+  background: #f0e9d6; }
   .weAreArpc .larger {
     font-size: 1.2em; }
   .weAreArpc a {
@@ -239,7 +240,7 @@ body {
 .homeSchedule {
   float: left;
   background: #76b6ff;
-  background: #76b6ff;
+  background: #dbd3c0;
   width: 100vw;
   height: 100vh;
   color: black;
@@ -256,7 +257,7 @@ body {
     font-weight: bold;
     font-size: 2em;
     text-align: center;
-    color: #FF8A4B;
+    color: #B28409;
     text-transform: uppercase; }
   .scheduleRight .Times .time {
     font-size: 1.3em;
@@ -316,30 +317,38 @@ body {
 .directions {
   height: 90vh;
   float: left;
-  background: #427CBD;
+  background: #cfdee3;
   width: 100vw;
-  box-shadow: 0px 0px 5px #575757; }
+  box-shadow: 0px 0px 5px #575757;
+  border-top: 5px solid #38be94; }
   .directions .Right {
     width: 40%;
     height: 100%;
     float: right; }
+    .directions .Right .canopyImage {
+      width: 70%;
+      margin-left: 10%;
+      margin-top: 2vh;
+      float: left;
+      box-shadow: 2px 2px 7px 0px #848484;
+      border-radius: 2px; }
     .directions .Right .address {
       text-align: center;
-      color: white;
+      color: #282828;
       font-size: 1.2em; }
     .directions .Right .Title {
       text-transform: uppercase;
       color: #282828;
       text-align: center;
-      margin-top: 15vh;
+      margin-top: 13vh;
       font-size: 3em;
-      margin-bottom: 10vh; }
+      margin-bottom: 5vh; }
 
 .mapLink {
-  padding: 1vh;
+  padding: 3vh;
   font-size: 1.1rem; }
   .mapLink a {
-    color: blue; }
+    color: #427CBD; }
   .mapLink i {
     color: #970909;
     font-size: 1.2em; }

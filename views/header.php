@@ -31,10 +31,11 @@
 					<span class = "logoLarge logoLast">Church</span>
 				</a>
 				<div class = "navLinks">
-					<a class = "navLink" href="index.php"><span class = "activeLink navLinkSpan">Home</span></a>
-					<a class = "navLink" href="about.php"><span class = "navLinkSpan">About Us</span></a>
-					<a class = "navLink" href="sermons.php"><span class = "navLinkSpan">Sermons</span></a>
-					<a class = "navLink" href="learn.php"><span class = "navLinkSpan">learning</span></a>
+					<a class = "navLink" href="/"><span class = "activeLink navLinkSpan">Home</span></a>
+					<a class = "navLink" href="/about"><span class = "navLinkSpan">About Us</span></a>
+					<a class = "navLink" href="/sermons"><span class = "navLinkSpan">Sermons</span></a>
+					<a class = "navLink" href="/learn"><span class = "navLinkSpan">learning</span></a>
+					<a class = "navLink" href="/contact"><span class = "navLinkSpan">Contact</span></a>
 					
 				</div>
 			</div>

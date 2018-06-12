@@ -6,6 +6,7 @@ var schedule = $(".homeSchedule")[0];
 
 var navLinks = $(".navLinkSpan");
 var navLink = $(".navLink");
+var navbarColor = "#3c4341";
 
 
 navLinks[currentPage].style.borderWidth = "2px"
@@ -20,8 +21,8 @@ window.addEventListener("resize", function(e){
 
 function navCalc(e){
 	if(window.scrollY >= 100 && navColored == false){
-		navbar.style.background = "#111111"
-		navbar.style.background = "#111111eb"
+		navbar.style.background = navbarColor
+		navbar.style.background = navbarColor + "eb"
 		navColored = true
 	}else if(window.scrollY == 0 && navColored == true){
 		navbar.style.background = "none"

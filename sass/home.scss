@@ -1,6 +1,6 @@
 $green:#62c6ac;
 
-$gradient: linear-gradient(rgb(172, 140, 44), rgb(134, 91, 38));
+$gradient: linear-gradient( #795b29, #e4cea9);
 $reverse-gradient: linear-gradient(#e4cea9, #795b29);
 
 
@@ -9,11 +9,15 @@ $navbar-words:#f5f3f0;
 $green:#38be94;
 $blue:#427CBD;
 $yellow:#FFB84B;
-$orange:#FF8A4B;
+$orange:#B28409;
 $grey:#282828;
 $white:#fffaf0;
+$darkOrange:#61490A;
+$lightOrange: #AB9458;
+$navbarColor: #403721;
 
-//#0189c9
+$gold: linear-gradient($lightOrange, $darkOrange);
+$reverse-gold:  linear-gradient($darkOrange, $lightOrange);
 
 
 
@@ -241,7 +245,7 @@ body{
 	width:100%;
 	height:60%;
 	float:left;
-	background:$white;
+	background:#f0e9d6;
 	box-shadow:0px 0px 4px 2px #2e2e2e;
 	.title{
 		width:100%;
@@ -286,7 +290,7 @@ body{
 
 	.Text{	
 		margin-top:10vh;
-		
+		color:$orange;
 		font-family:$first;
 		margin-bottom:8vh;
 	}
@@ -322,7 +326,7 @@ body{
 	font-family:$first;
 	padding:1vw;
 	padding-bottom:6vh;
-	background:$white;
+	background:#f0e9d6;
 
 	.larger{
 		font-size:1.2em;
@@ -341,7 +345,7 @@ body{
 
 	float:left;
 	background:#76b6ff;
-	background:#76b6ff;
+	background:#dbd3c0;
 	width:100vw;
 	height:100vh;
 
@@ -470,18 +474,29 @@ body{
 .directions{
 	height:90vh;
 	float:left;
-	background:$blue;
+	background:#cfdee3;
 	width:100vw;
 	box-shadow:0px 0px 5px #575757;
+	border-top:5px solid $green;
 
 	.Right{
 		width:40%;
 		height:100%;
 		float:right;
 
+		.canopyImage{
+			width:70%;
+			margin-left:10%;
+			margin-top:2vh;
+			float:left;
+
+			box-shadow:2px 2px 7px 0px #848484;
+			border-radius:2px;
+		}
+
 		.address{
 			text-align:center;
-			color:white;
+			color:$grey;
 			font-size:1.2em;
 		}
 
@@ -489,19 +504,19 @@ body{
 			text-transform:uppercase;
 			color:#282828;
 			text-align:center;
-			margin-top:15vh;
+			margin-top:13vh;
 			font-size:3em;
-			margin-bottom:10vh;
+			margin-bottom:5vh;
 		}
 	}
 }
 
 .mapLink{
-	padding:1vh;
+	padding:3vh;
 	font-size:1.1rem;
 	
 	a{
-		color:blue;
+		color:$blue;
 	}
 
 	i{

@@ -24,21 +24,33 @@
 <body>
 	<div class = "header">
 			<div class = "navbar">
-				<a href = "index.php" class = "logo">
-					<span class = "logoLarge">Gospel</span>
-					<span class = "logoSmall">of</span>
-					<span class = "logoLarge">Grace</span>
-					<span class = "logoLarge logoLast">Church</span>
-				</a>
+				<div class = "logo">	
+					<a href = "index.php" >
+						<span class = "logoLarge">Gospel</span>
+						<span class = "logoSmall">of</span>
+						<span class = "logoLarge">Grace</span>
+						<span class = "logoLarge logoLast">Church</span>
+					</a>
+				</div>
+				
 				<div class = "navLinks">
 					<a class = "navLink" href="/"><span class = "activeLink navLinkSpan">Home</span></a>
 					<a class = "navLink" href="/about"><span class = "navLinkSpan">About Us</span></a>
 					<a class = "navLink" href="/sermons"><span class = "navLinkSpan">Sermons</span></a>
 					<a class = "navLink" href="/learn"><span class = "navLinkSpan">learning</span></a>
 					<a class = "navLink" href="/contact"><span class = "navLinkSpan">Contact</span></a>
-					
-				</div>
+						
+					</div>
+
+					<div class = "hamburger">
+						<div class = "bar top"></div>
+						<div class = "bar middle"></div>
+						<div class = "bar bottom"></div>
+					</div>
+				
 			</div>
+
+			
 		</div>
 
 

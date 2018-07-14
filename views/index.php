@@ -4,7 +4,7 @@
 <!-- css for main page -->
 <link rel="stylesheet" type="text/css" href="../css/home.css">
 
-	<div class = "homeMain">
+
 				
 		
 
@@ -18,7 +18,7 @@
 				<!-- If God is for us, who can be against us? -->
 
 				
-				<div class = "imageCoverColor"></div>
+				<!-- <div class = "imageCoverColor"></div> -->
 				<div class = "image"></div>
 				<div class = "imageButtons">
 					<div></div>
@@ -28,10 +28,10 @@
 
 				</div>
 				<!-- IF WE WANT A BOUNCING ARROW, UNCOMMENT THIS -->
-<!-- 				<div class = "arrow bounce">
+				<div class = "arrow bounce">
 					<i class="fas fa-chevron-down"></i>
 				</div>
-				 -->
+				
 			</div>	
 
 
@@ -79,7 +79,7 @@
 							<div class = "larger">A Reformed church.</div>
 							<i>worshipping</i> the triune God of grace,<br>
 							<i>discipling</i> the community of grace, and <br>
-							<I>reaching</I> the lost with the gospel of grace. <br>
+							<I>reaching</I> the lost with the gospel of grace.
 						</div>
 					</div>
 				</div>
@@ -111,7 +111,8 @@
 
 			<div class = "directions" id = "directions">
 				<!-- <div id = "map"></div> -->
-				<iframe id = "map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=600%20S%20jefferson%20Ave%20Springfield%20M0&key=AIzaSyCJ-0V2LMqjyOCOvCMveZBOxhMsH_gbI-0" allowfullscreen></iframe>
+
+				<iframe id = "map" class = "map map1"width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=600%20S%20jefferson%20Ave%20Springfield%20M0&key=AIzaSyCJ-0V2LMqjyOCOvCMveZBOxhMsH_gbI-0" allowfullscreen></iframe>
 
 				<div class = "Right">
 					<div class = Title>Location</div>
@@ -126,6 +127,8 @@
 					<img class = "canopyImage" src="../assets/images/canopy.jpg">
 				</div>
 
+				<iframe id = "map" class = "map map2" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=600%20S%20jefferson%20Ave%20Springfield%20M0&key=AIzaSyCJ-0V2LMqjyOCOvCMveZBOxhMsH_gbI-0" allowfullscreen></iframe>
+
 			</div>
 
 
@@ -136,7 +139,6 @@
 
 
 		
-	</div>
 
 
 

@@ -14,6 +14,8 @@
 	Ephesians 2:8-9
 </div>
 
+<!-- three circles/links single row -->
+
 <script type="text/javascript" src = "../scripts/about.js"></script>
 
 <?php include 'footer.php'; ?>

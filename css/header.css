@@ -164,11 +164,12 @@ a {
   .footer .copyright {
     text-align: center;
     color: white;
-    padding-top: 2vw; }
+    padding-top: 2vw;
+    font-size: 1em; }
     .footer .copyright a {
       color: #427CBD;
       padding-left: 2vw;
-      font-size: 1.05rem;
+      font-size: 1.05em;
       text-decoration: underline; }
 
 /*# sourceMappingURL=header.css.map */

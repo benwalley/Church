@@ -1,10 +1,47 @@
 body {
   margin: 0; }
 
+.navbar {
+  background: #3c4341 !important; }
+
+.contactTitle {
+  background-image: url("../assets/images/contactTree.jpg");
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: yellow;
+  background-position: bottom;
+  font-size: 7em;
+  text-align: center;
+  padding-top: 20vh;
+  color: #EEEEEE;
+  text-transform: uppercase; }
+
 .contactMain {
-  height: 150vh;
   float: left;
   width: 100vw;
-  background: #373737; }
+  height: 50vh;
+  padding: 10vh 25vw;
+  margin-top: 50vh;
+  background: #dabd86;
+  color: #313131; }
+
+.address {
+  text-align: center;
+  font-size: 1.4em; }
+
+.emails {
+  float: left;
+  padding: 2vw; }
+  .emails .email {
+    padding: .7vw; }
 
 /*# sourceMappingURL=contact.css.map */

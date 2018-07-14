@@ -1,8 +1,30 @@
 <?php include 'header.php'; ?>
 <link rel="stylesheet" type="text/css" href="../css/learning.css">
 
+<div class = "topImage">Educational Resources</div>
+
 <div class = "mainDiv">
-	You came to learn? <br> You came to the right place!
+	<div class = "section recommended">
+		<div class = linkImage></div>
+		<div class = "linkName">Recommended Reading</div>
+
+	</div>
+
+	<div class = "section membership">
+		<div class = linkImage></div>
+		<div class = "linkName">Membership and Baptism</div>
+	</div>
+
+	<div class = "section library">
+		<div class = linkImage></div>
+		<div class = "linkName">Our Library</div>
+	</div>
+
+	<div class = "section outsideLinks">
+		<div class = linkImage></div>
+		<div class = "linkName">outside Links</div>
+	</div>
+
 </div>
 
 

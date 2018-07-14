@@ -103,6 +103,7 @@ function navDesktop(){
 }
 
 function desktopScroll(){
+	
 	desktopInterval = setInterval(function(){
 		if(didScroll){
 			if(window.scrollY >= 100 && navColored == false){

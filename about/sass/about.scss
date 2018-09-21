@@ -1,0 +1,405 @@
+
+$green:#38be94;
+$blue:#427CBD;
+$yellow:#FFB84B;
+$orange:#FF8A4B;
+$grey:#282828;
+$white:#fffaf0;
+$linkBlue:#2242bc;
+
+body{
+	background:#eaeaea;
+	overflow-x:hidden;
+	margin:0;
+}
+
+.topImage{
+	background-image: url('/includes/images/bible2.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:40vh;
+	width:100vw;
+	float:left;
+	text-align:center;
+	font-size:4.5vw;
+	font-weight:bold;
+	text-shadow:2px 2px 8px black;
+	text-transform:uppercase;
+	color:white;
+	letter-spacing:5px;
+	padding-top:15vh;
+}
+
+@media only screen and (min-width: 768px){
+	.aboutLinks{
+		width:100%;
+		float:left;
+		display:grid;
+		background:white;
+		grid-template-columns:repeat(6, 1fr);
+		border-bottom:10px solid grey;
+	}
+
+	.aboutLink{
+		margin:2vw;
+		cursor:pointer;
+
+		&:hover{
+			text-shadow:2px 2px 6px #707070;
+		}
+	}
+
+	.linkImage{
+		width:100%;
+		color:#3c3c3c;
+		font-size:4em;
+		float:left;
+		border-radius:50%;
+		text-align:center;
+	}
+
+	.jumpSections{
+		width:20vw;
+		position:absolute;
+		left:0;
+		top:85%;
+		border-right:1px solid $linkBlue;
+	}
+
+	.linkName{
+		float:left;
+		color:#3c3c3c;
+		text-align:center;
+		width:100%;
+		padding:10px;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+
+	.jumpLink{
+		width:100%;
+		float:left;
+		color:$linkBlue;
+		padding:10px;
+		padding-left:10%;
+		text-transform:uppercase;
+
+		&:hover{
+			font-weight:bold;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 530px){
+	.aboutLinks{
+		width:100%;
+		float:left;
+		display:grid;
+		background:white;
+		grid-template-columns:repeat(6, 1fr);
+		border-bottom:10px solid grey;
+	}
+
+	.aboutLink{
+		margin:2vw;
+		cursor:pointer;
+
+		&:hover{
+			text-shadow:2px 2px 6px #707070;
+		}
+	}
+
+	.linkImage{
+		width:100%;
+		color:#3c3c3c;
+		font-size:3em;
+		float:left;
+		border-radius:50%;
+		text-align:center;
+	}
+
+	.jumpSections{
+		width:20vw;
+		position:absolute;
+		left:0;
+		top:85%;
+		border-right:1px solid $linkBlue;
+	}
+
+	.linkName{
+		float:left;
+		color:#3c3c3c;
+		text-align:center;
+		width:100%;
+		padding:5px;
+		font-weight:bold;
+		font-size:0.7em;
+		text-transform:uppercase;
+	}
+
+	.jumpLink{
+		width:100%;
+		float:left;
+		color:$linkBlue;
+		padding:10px;
+		padding-left:10%;
+		text-transform:uppercase;
+		font-size:0.8em;
+
+		&:hover{
+			font-weight:bold;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 530px){
+	.aboutLinks{
+		width:100%;
+		float:left;
+		display:grid;
+		background:white;
+		grid-template-columns:repeat(3, 1fr);
+		border-bottom:10px solid grey;
+	}
+
+	.aboutLink{
+		margin:1vw;
+		cursor:pointer;
+
+		&:hover{
+			text-shadow:2px 2px 6px #707070;
+		}
+	}
+
+	.linkImage{
+		width:100%;
+		color:#3c3c3c;
+		float:left;
+		font-size:2em;
+		border-radius:50%;
+		text-align:center;
+	}
+
+	.jumpSections{
+		display:none;
+	}
+
+	.linkName{
+		float:left;
+		color:#3c3c3c;
+		text-align:center;
+		width:100%;
+		padding:5px;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+
+	.jumpLink{
+		width:100%;
+		float:left;
+		color:$linkBlue;
+		padding:10px;
+		padding-left:10%;
+		text-transform:uppercase;
+
+		&:hover{
+			font-weight:bold;
+		}
+	}
+
+
+}
+
+
+@media only screen and (min-width: 530px){
+	.largeSection{
+		min-height:50vh;
+		width:79vw;
+		padding:3vw;
+		float:right;
+
+		h1{
+			text-align:center;
+		}
+	}
+}
+
+@media only screen and (max-width: 530px){
+	.largeSection{
+		min-height:50vh;
+		width:100vw;
+		padding:3vw;
+		text-align:center;
+		float:right;
+
+		h1{
+			text-align:center;
+		}
+	}
+}
+
+
+
+
+
+.mainContent{
+
+}
+
+
+
+.largeBegin{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.blueLink{
+	color:$linkBlue;
+	
+	&:hover{
+		text-decoration:underline;
+	}
+}
+
+.documentLink{
+	color:blue;
+	text-align:center;
+	padding:3vh;
+
+	&:hover{
+		text-shadow:1px 1px 5px #363636;
+	}
+}
+
+.documentImage{
+	font-size:3em;
+}
+
+.pdf{
+	color:red;
+}
+
+.documentPair{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	width:100%;
+
+	h2{
+		width:100%;
+	}
+}
+
+.verse{
+	color:$linkBlue;
+	cursor:pointer;
+	font-size:.9em;
+}
+
+
+
+.versePopup{
+	width:300px;
+	min-height:50px;
+	border-radius:10px;
+	padding:10px;
+	border:1px solid black;
+	background:#dedede;
+	position:absolute;
+	top:1000px;
+	left:400px;
+	display:none;
+}
+
+.semiTitle{
+	font-size:0.9em;
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+
+
+#beliefs,
+#forFamilies,
+#makingFriends,
+#leadership,
+#vision,
+#worship
+{
+	display:none;
+}
+
+.leadershipSection{
+	width:100%;
+	float:left;
+	border-bottom:1px solid black;
+
+	&.diaconate{
+		border-bottom:none;
+	}
+}
+
+
+
+@media only screen and (min-width: 768px) and (orientation:landscape){
+	.leader{
+		width:100%;
+		float:left;
+		padding:3vh;
+
+		.bio{
+			float:left;
+			width:90%;
+		}
+
+		.name{
+			margin-top:0;
+			font-size:1.3em;
+		}
+	}
+
+	.pastorImage{
+		width:200px;
+		float:left;
+		margin:2vw;
+		margin-top:0;
+		box-shadow:2px 2px 7px 0px #717171;
+	}
+}
+
+@media only screen and (max-width: 768px), (orientation:portrait){
+	.leader{
+		width:100%;
+		float:left;
+		padding:3vh;
+
+		.bio{
+			float:left;
+			width:100%;
+		}
+
+		.name{
+			margin-top:0;
+			font-size:1.3em;
+			width:100%;
+			float:left;
+		}
+	}
+
+	.pastorImage{
+		width:200px;
+		float:left;
+		margin:2vw;
+		margin-top:0;
+		box-shadow:2px 2px 7px 0px #717171;
+		margin-left:calc(50% - 100px)
+	}
+
+	.leadershipBio{
+		float:left;
+	}
+}
+

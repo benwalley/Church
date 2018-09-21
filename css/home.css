@@ -20,7 +20,7 @@ body {
   width: 100vw;
   overflow-x: hidden; }
 
-@media screen and (orientation: landscape) and (min-width: 850px) {
+@media screen and (orientation: landscape) and (min-width: 769px) {
   .mainImage {
     width: 100vw;
     height: 100vh;
@@ -29,7 +29,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1; } }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait), (max-width: 768px) {
   .mainImage {
     width: 100vw;
     height: 100vh;
@@ -40,7 +40,7 @@ body {
     z-index: -1; } }
 .image {
   width: 100%;
-  background-image: url("../assets/images/bible.jpg");
+  background-image: url("/includes/images/bible.jpg");
   height: 100%;
   background-size: cover;
   -ms-background-position-x: center;
@@ -52,7 +52,7 @@ body {
   width: 100%;
   height: 100%; }
 
-@media screen and (orientation: landscape) and (min-width: 850px) {
+@media screen and (orientation: landscape) and (min-width: 769px) {
   .imageButtons {
     width: 100vw;
     display: grid;
@@ -79,7 +79,7 @@ body {
       -o-transition: all .1s ease-in .02s;
       /* Standard */
       transition: all .1s ease-in .02s; } }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait), (max-width: 768px) {
   .imageButtons {
     width: 100vw;
     display: block;
@@ -92,7 +92,7 @@ body {
       text-transform: uppercase;
       color: white;
       text-align: center;
-      font-size: 3em;
+      font-size: 5vw;
       letter-spacing: 0.1em;
       font-weight: bold;
       padding: 2vh;
@@ -117,7 +117,7 @@ body {
 .imageButton:focus {
   outline: 0; }
 
-@media screen and (orientation: landscape) and (min-width: 850px) {
+@media screen and (orientation: landscape) and (min-width: 769px) {
   .homeVerse {
     width: 60vw;
     text-align: center;
@@ -141,7 +141,7 @@ body {
 
   .arrow {
     display: none; } }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait), (max-width: 768px) {
   .homeVerse {
     width: 100vw;
     text-align: center;
@@ -149,7 +149,7 @@ body {
     left: 0;
     position: absolute;
     z-index: 10;
-    font-size: 2.4em;
+    font-size: 4vw;
     color: #3bc08f;
     font-family: "Open Sans", sans-serif;
     text-shadow: 1px 1px 1px #4f3608;
@@ -158,7 +158,7 @@ body {
 
   .homeLarge {
     font-weight: bold;
-    font-size: 9rem;
+    font-size: 10vw;
     color: #f6f6f6;
     padding: 2.6vw;
     padding-bottom: 4vh; }
@@ -168,7 +168,7 @@ body {
     position: absolute;
     width: 20vw;
     left: 40vw;
-    top: 90vh;
+    top: 85vh;
     height: 10vh;
     font-size: 5em;
     color: white;
@@ -214,42 +214,87 @@ body {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
-.about {
-  float: left;
-  width: 100vw;
-  height: 140vh;
-  background: url("../assets/images/piano.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; }
+@media screen and (orientation: landscape) and (min-width: 769px) {
+  .aboutContent {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    width: 80%;
+    margin-left: 10%;
+    color: #291e00; }
+    .aboutContent a {
+      color: #0540ec; }
+      .aboutContent a:hover {
+        text-decoration: underline; }
 
-.aboutSpacer {
-  width: 100%;
-  height: 40%;
-  float: left; }
+  .about {
+    float: left;
+    width: 100vw;
+    background: url("/includes/images/piano.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; }
 
-.aboutBottom {
-  width: 100%;
-  height: 60%;
-  float: left;
-  border-top: 12px solid #38be94;
-  background: #f0e9d6;
-  box-shadow: 0px 0px 4px 2px #2e2e2e; }
-  .aboutBottom .title {
+  .aboutSpacer {
     width: 100%;
-    text-align: center;
-    font-size: 4em;
-    text-transform: uppercase;
-    padding: 2vw; }
+    height: 40%;
+    float: left; }
 
-.aboutContent {
-  font-size: 1.1em;
-  line-height: 1.3em;
-  width: 80%;
-  margin-left: 10%;
-  color: #291e00; }
+  .aboutBottom {
+    width: 100%;
+    height: 60%;
+    float: left;
+    padding-bottom: 10vh;
+    border-top: 12px solid #38be94;
+    background: #f0e9d6;
+    box-shadow: 0px 0px 4px 2px #2e2e2e; }
+    .aboutBottom .title {
+      width: 100%;
+      text-align: center;
+      font-size: 4em;
+      text-transform: uppercase;
+      padding: 2vw; } }
+@media screen and (orientation: portrait), (max-width: 768px) {
+  .aboutContent {
+    font-size: 15px;
+    line-height: 1em;
+    width: 90%;
+    margin-left: 5%;
+    color: #291e00;
+    text-align: center; }
+    .aboutContent a {
+      color: #0540ec; }
+      .aboutContent a:hover {
+        text-decoration: underline; }
 
+  .about {
+    float: left;
+    width: 100vw;
+    background: url("/includes/images/piano.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; }
+
+  .aboutSpacer {
+    width: 100%;
+    height: 40%;
+    float: left; }
+
+  .aboutBottom {
+    width: 100%;
+    height: 60%;
+    float: left;
+    padding-bottom: 10vh;
+    border-top: 12px solid #38be94;
+    background: #f0e9d6;
+    box-shadow: 0px 0px 4px 2px #2e2e2e; }
+    .aboutBottom .title {
+      width: 100%;
+      text-align: center;
+      font-size: 3em;
+      text-transform: uppercase;
+      padding: 2vw; } }
 .mainBackground {
   height: 120vh;
   float: left;
@@ -264,13 +309,14 @@ body {
   left: 0;
   top: 100vh; }
 
-@media screen and (orientation: landscape) and (min-width: 850px) {
+@media screen and (orientation: landscape) and (min-width: 769px) {
   .weAre {
     float: left;
     width: 100vw;
     padding: 20px;
     text-transform: uppercase;
     font-size: 1.2em;
+    overflow: hidden;
     text-align: center;
     line-height: 2.5em;
     letter-spacing: .15em;
@@ -282,14 +328,14 @@ body {
       font-family: "Open Sans", sans-serif;
       margin-bottom: 8vh; }
     .weAre .larger {
-      font-size: 1.35em;
+      font-size: 1em;
       font-weight: bold;
       padding-bottom: 10px; } }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait), (max-width: 768px) {
   .weAre {
     float: left;
     width: 100vw;
-    padding: 20px 4vh;
+    padding: 20px 1.4vh;
     text-transform: uppercase;
     font-size: 2em;
     text-align: center;
@@ -298,12 +344,14 @@ body {
     color: #b37618;
     text-shadow: 2px 2px 1px #181818; }
     .weAre .Text {
-      margin-top: 10vh;
+      margin-top: 6vh;
       color: #B28409;
       font-family: "Open Sans", sans-serif;
-      margin-bottom: 8vh; }
+      margin-bottom: 8vh;
+      font-size: 0.6em;
+      line-height: initial; }
     .weAre .larger {
-      font-size: 1.65em;
+      font-size: 1.5em;
       font-weight: bold;
       padding-bottom: 10px; }
     .weAre br {
@@ -331,7 +379,7 @@ body {
     text-decoration: underline;
     color: blue; }
 
-@media screen and (orientation: landscape) and (min-width: 850px) {
+@media screen and (orientation: landscape) and (min-width: 769px) {
   .homeSchedule {
     margin-top: 100vh;
     float: left;
@@ -407,13 +455,12 @@ body {
       margin-top: 10vh;
       transform: rotate(10deg);
       box-shadow: 2px 2px 7px 2px #3c3c3c; } }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait), (max-width: 768px) {
   .homeSchedule {
     margin-top: 100vh;
     float: left;
     background: linear-gradient(#dbd3c0, #fffaf0);
     width: 100vw;
-    height: 100vh;
     border-top: 12px solid #38be94;
     border-bottom: 12px solid #38be94;
     color: black;
@@ -426,8 +473,8 @@ body {
     text-align: center; }
     .scheduleRight .Schedule {
       border-radius: 2px;
-      padding-top: 13vh;
-      padding-bottom: 1vh;
+      padding-top: 8vh;
+      padding-bottom: 6vh;
       width: 100%; }
     .scheduleRight a {
       background: #356eea;
@@ -442,26 +489,28 @@ body {
         padding-left: 4%; }
     .scheduleRight .Title {
       font-weight: bold;
-      font-size: 5em;
+      font-size: 3em;
       text-align: center;
-      padding-bottom: 7vh;
       color: #B28409;
       text-transform: uppercase; }
     .scheduleRight .Last {
-      margin-bottom: 12vh !important; }
-    .scheduleRight .Times .time {
-      font-size: 1.2em;
-      font-weight: bold;
-      text-transform: uppercase;
-      color: #38be94; }
-    .scheduleRight .Times .description {
-      padding-top: 1vw;
-      color: #434343; }
-    .scheduleRight .Times li {
-      list-style-type: none;
-      padding: 2.5vh 1vw;
-      margin: 1vw;
-      font-size: 2rem; }
+      margin-bottom: 8vh !important; }
+    .scheduleRight .Times {
+      padding-left: 0; }
+      .scheduleRight .Times .time {
+        font-size: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #38be94; }
+      .scheduleRight .Times .description {
+        padding-top: 1vw;
+        font-size: 0.7em;
+        color: #434343; }
+      .scheduleRight .Times li {
+        list-style-type: none;
+        padding: 2.5vh 1vw;
+        margin: 1vw;
+        font-size: 1.4em; }
 
   .scheduleImage {
     display: none; } }
@@ -491,7 +540,7 @@ body {
   grid-row-start: 2;
   grid-row-end: 3; }
 
-@media screen and (orientation: landscape) and (min-width: 850px) {
+@media screen and (orientation: landscape) and (min-width: 769px) {
   .map2 {
     display: none; }
 
@@ -544,10 +593,7 @@ body {
     .mapLink i {
       color: #970909;
       font-size: 1.2em; } }
-@media screen and (orientation: portrait) {
-  .map2 {
-    display: block; }
-
+@media screen and (orientation: portrait), (max-width: 768px) {
   .map1 {
     display: none; }
 
@@ -558,11 +604,17 @@ body {
     float: left;
     box-shadow: 1px 1px 5px 1px #7f7f7f; }
 
+  .map2 {
+    display: block;
+    width: 80%;
+    height: 70vw;
+    margin-left: 10vw;
+    margin-bottom: 10vw; }
+
   .directions {
     float: left;
     background: #cfdee3;
     width: 100vw;
-    height: 120vh;
     overflow: hidden;
     box-shadow: 0px 0px 5px #575757;
     border-top: 12px solid #38be94; }
@@ -579,7 +631,7 @@ body {
       .directions .Right .address {
         text-align: center;
         color: #282828;
-        font-size: 3em;
+        font-size: 1.1em;
         padding: 3vh;
         padding-bottom: 1vh; }
       .directions .Right .Title {
@@ -587,11 +639,11 @@ body {
         color: #282828;
         text-align: center;
         margin-top: 3vh;
-        font-size: 5em; }
+        font-size: 2.5em; }
 
   .mapLink {
     padding: 3vh;
-    font-size: 2.2rem; }
+    font-size: 1.1em; }
     .mapLink a {
       color: #427CBD; }
     .mapLink i {

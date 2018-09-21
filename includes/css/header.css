@@ -1,0 +1,176 @@
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.navbar {
+  overflow: hidden;
+  width: 100vw;
+  z-index: 5;
+  -moz-transition: all .5s ease .06s;
+  /* WebKit */
+  -webkit-transition: all .5s ease .06s;
+  /* Opera */
+  -o-transition: all .5s ease .06s;
+  /* Standard */
+  transition: all .5s ease .06s; }
+
+@media screen and (orientation: landscape) and (min-width: 769px) {
+  .navbar {
+    background: none;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1vw;
+    position: fixed;
+    top: 0;
+    z-index: 5; } }
+@media screen and (orientation: portrait), (max-width: 768px) {
+  .navbar {
+    background: #3c4341;
+    position: fixed;
+    height: 75px;
+    top: 0;
+    left: 0; } }
+.logo {
+  height: 100%; }
+
+@media screen and (orientation: landscape) and (min-width: 769px) {
+  .logo {
+    padding: 1vw;
+    padding-right: 8vw;
+    float: left; }
+
+  a {
+    color: #f5f3f0; } }
+@media screen and (orientation: portrait), (max-width: 768px) {
+  .logo {
+    text-align: center;
+    padding: 2vh;
+    width: 100%; }
+
+  a {
+    color: #f5f3f0; } }
+@media screen and (orientation: landscape) and (min-width: 769px) {
+  .logoLarge {
+    font-size: 1.5em; }
+
+  .logoSmall {
+    font-size: .75em; }
+
+  .logoLast {
+    font-weight: bold;
+    color: #3bc095; } }
+@media screen and (orientation: portrait), (max-width: 768px) {
+  .logoLarge {
+    font-size: 5vw; }
+
+  .logoSmall {
+    font-size: 3vw; }
+
+  .logoLast {
+    font-weight: bold;
+    color: #3bc095; } }
+@media screen and (orientation: landscape) and (min-width: 769px) {
+  .hamburger {
+    display: none; } }
+@media screen and (orientation: portrait), (max-width: 768px) {
+  .hamburger {
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 6;
+    -moz-transition: all .5s ease .06s;
+    /* WebKit */
+    -webkit-transition: all .5s ease .06s;
+    /* Opera */
+    -o-transition: all .5s ease .06s;
+    /* Standard */
+    transition: all .5s ease .06s; }
+    .hamburger .bar {
+      height: 10%;
+      width: 100%;
+      margin: 20% 0;
+      background: #f5f3f0;
+      border-radius: 2px; } }
+@media screen and (orientation: landscape) and (min-width: 769px) {
+  .navLinks {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px; }
+
+  .navLink {
+    padding-top: 2vh;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #f5f3f0; }
+    .navLink .navLinkSpan {
+      padding: .3em;
+      border-bottom: 0px solid #38be94;
+      -moz-transition: all .1s ease-in .1s;
+      /* WebKit */
+      -webkit-transition: all .1s ease-in .1s;
+      /* Opera */
+      -o-transition: all .1s ease-in .1s;
+      /* Standard */
+      transition: all .1s ease-in .1s; } }
+@media screen and (orientation: portrait), (max-width: 768px) {
+  .navLinks {
+    display: none;
+    width: 80vw;
+    margin-left: 10vw;
+    z-index: 6;
+    position: fixed; }
+
+  .navLink {
+    width: 100%;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #f5f3f0;
+    font-size: 1em;
+    background: #282828;
+    padding: 2vh; }
+    .navLink .navLinkSpan {
+      -moz-transition: all .1s ease-in .1s;
+      /* WebKit */
+      -webkit-transition: all .1s ease-in .1s;
+      /* Opera */
+      -o-transition: all .1s ease-in .1s;
+      /* Standard */
+      transition: all .1s ease-in .1s; } }
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background: #282828;
+  float: left; }
+  .footer .copyright {
+    text-align: center;
+    color: white;
+    padding-top: 2vw;
+    font-size: 1em; }
+    .footer .copyright a {
+      color: #427CBD;
+      padding-left: 2vw;
+      font-size: 1.05em;
+      text-decoration: underline; }
+
+/*# sourceMappingURL=header.css.map */

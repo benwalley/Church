@@ -1,0 +1,85 @@
+$green:#38be94;
+$orange:#B28409;
+
+body{
+	margin:0;
+
+}
+
+.navbar{
+	background:#3c4341 !important;
+	//background:#3c4341eb !important;
+}
+
+.contactTitle{
+	background-image: url("/includes/images/contactTree.jpg");
+	width:100vw;
+	height:50vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-color:yellow;
+  	background-position:bottom;
+  	font-size:3em;
+  	text-align:center;
+  	padding-top:20vh;
+  	color:#EEEEEE;
+  	text-transform:uppercase;
+  	
+
+}
+
+.emailLink{
+	color:red;
+	padding:.5vw;
+	font-size:2em;
+	float:right;
+}
+
+.contactMain{
+
+	float:left;
+	width:100vw;
+
+	padding:10vh 10vw;
+	margin-top:50vh;
+	background:#bfae94;
+	color:#313131;
+
+
+}
+
+.address{
+	text-align:center;
+	font-size:1.4em;
+	float:left;
+	width:100%;
+	padding-bottom:4vh;
+}
+
+.emailTitle{
+	color:#1e1e1e;
+	font-weight:bold;
+	color:#131313;
+}
+
+.emails{
+	float:left;
+	padding:2vw;
+	width:100%;
+	color:#00005e;
+
+
+	.email{
+		float:left;
+		width:100%;
+	}
+
+}
+

@@ -109,7 +109,7 @@ a {
       margin: 20% 0;
       background: #f5f3f0;
       border-radius: 2px; } }
-@media screen and (orientation: landscape) and (min-width: 769px) {
+@media screen and (orientation: landscape) {
   .navLinks {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -131,7 +131,7 @@ a {
       -o-transition: all .1s ease-in .1s;
       /* Standard */
       transition: all .1s ease-in .1s; } }
-@media screen and (orientation: portrait), (max-width: 768px) {
+@media screen and (orientation: portrait) {
   .navLinks {
     display: none;
     width: 80vw;

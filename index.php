@@ -145,7 +145,7 @@
 						600 S. Jefferson Ave, <br>
 						Springfield, MO 65806 <br>
 						<div class = "mapLink">
-							<a href="https://www.google.com/maps/search/?api=1&query=600%20S%20jefferson%20Ave%20Springfield%20M0" target = "none">Open in google maps </a>
+							<a href="https:/www.google.com/maps/search/?api=1&query=600%20S%20jefferson%20Ave%20Springfield%20M0" target = "none">Open in google maps </a>
 						</div>
 					</div>
 					<img class = "canopyImage" src="/includes/images/canopy.jpg">
@@ -155,6 +155,6 @@
 
 			</div>
 
-<script type="text/javascript" src = "../scripts/home.js"></script>
+<script type="text/javascript" src = "/scripts/home.js"></script>
 <?php include 'includes/footer.php'; ?>
 

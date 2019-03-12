@@ -49,13 +49,13 @@
 
 			Boice, James Montgomery.  Whatever Happened to The Gospel of Grace?: Rediscovering the Doctrines That Shook the World.  Crossway, 2009. <br><br>
 
-			Carson, D. A.  The God Who Is There: Finding Your Place in God’s Story.  Grand Rapids: Baker, 2010. <br><br>
+			Carson, D. A.  The God Who Is There: Finding Your Place in God's Story.  Grand Rapids: Baker, 2010. <br><br>
 
 			Pipa, Joseph A.  Westminster Confession Of Faith Study Book: A Study Guide for Churches.  Scotland, UK: Christian Focus Publications, 2005.  <br><br>
 
 			Vos, J. Geerhardus, and G.I. Williamson.  The Westminster Larger Catechism: A Commentary.  Phillipsburg, NJ: P&R Publshing 2002.  <br><br>
 
-			Watson, Thomas.  A Body of Divinity: Contained in Sermons upon the Westminster Assembly’s [Shorter] Catechism.  Edinburgh: Banner of Truth, 2008. <br><br>
+			Watson, Thomas.  A Body of Divinity: Contained in Sermons upon the Westminster Assembly's [Shorter] Catechism.  Edinburgh: Banner of Truth, 2008. <br><br>
 
 			Williamson, G. I.  The Westminster Shorter Catechism: For Study Classes.  Phillipsburg, NJ: P&R Publishing, 2003. <br><br>
 
@@ -152,7 +152,7 @@
 
 		<div class = "contentSection" id = "counseling">
 			<h2 class = "sectionTitle">Counseling</h2>
-			Chester, Tim.  You Can Change: God’s Transforming Power for Our Sinful Behaviour and Negative Emotions.  Nottingham, England: IVP, 2008. <br><br>
+			Chester, Tim.  You Can Change: God's Transforming Power for Our Sinful Behaviour and Negative Emotions.  Nottingham, England: IVP, 2008. <br><br>
 
 			Collins, Gary R.  Christian Counseling: A Comprehensive Guide, 3rd Edition.  Dallas, TX: Thomas Nelson, 2007. <br><br>
 
@@ -173,7 +173,7 @@
 			<h2 class = "sectionTitle">Covenant Theology</h2>
 			Horton, Michael.  Introducing Covenant Theology.  Grand Rapids: Baker Books, 2009. <br><br>
 
-			Robertson, O. Palmer.  Covenants: God’s Way with His People.  Philadelphia, PA: Great Commission Publications, 1987. <br><br>
+			Robertson, O. Palmer.  Covenants: God's Way with His People.  Philadelphia, PA: Great Commission Publications, 1987. <br><br>
 
 			The Case for Covenantal Infant Baptism.  Edited by Gregg Strawbridge.  Phillipsburg, NJ: P&R Publishing, 2003. <br><br>
 		</div>
@@ -212,7 +212,7 @@
 
 			Jones, David Clyde.  Biblical Christian Ethics.  Grand Rapids: Baker, 1994. <br><br>
 
-			Keller, Timothy.  Generous Justice: How God’s Grace Makes Us Just.  New York, NY: Dutton, 2010. <br><br>
+			Keller, Timothy.  Generous Justice: How God's Grace Makes Us Just.  New York, NY: Dutton, 2010. <br><br>
 
 			Watson, Thomas.  The Ten Commandments. <br><br>
 		</div>
@@ -225,7 +225,7 @@
 
 			Metzger, Will.  Tell the Truth: The Whole Gospel to the Whole Person by Whole People.  Downers Grove, IL: IVP, 2002. <br><br>
 
-			Pollard, Nick.  Evangelism Made Slightly Less Difficult: How to Interest People Who Aren’t Interested.  Downers Grove, IL: IVP, 1997. <br><br>
+			Pollard, Nick.  Evangelism Made Slightly Less Difficult: How to Interest People Who Aren't Interested.  Downers Grove, IL: IVP, 1997. <br><br>
 
 			Spurgeon, Charles H.  The Soul Winner.  Lafayette, IN: Sovereign Grace Publishers, 2001.<br><br>
 
@@ -259,7 +259,7 @@
 
 		<div class = "contentSection" id = "marriage">
 			<h2 class = "sectionTitle">Marriage</h2>
-			Chapell, Bryan.  Each for the Other: Marriage as It’s Meant to Be.  Grand Rapids: Baker Books, 2006. <br><br>
+			Chapell, Bryan.  Each for the Other: Marriage as It's Meant to Be.  Grand Rapids: Baker Books, 2006. <br><br>
 
 			Chapman, Gary.  Covenant Marriage.  Nashville, TN: B&H Publishing Group, 2003. <br><br>
 
@@ -288,7 +288,7 @@
 
 			Tripp, Paul David.  Age of Opportunity: A Biblical Guide to Parenting Teens, 2nd Edition.  Phillipsburg, NJ: P&R Publishing, 2001. <br><br>
 
-			Tripp, Tedd.  Shepherding a Child’s Heart.  Wapwallopen, PA: Shepherd’s Press, 1995. <br><br>
+			Tripp, Tedd.  Shepherding a Child's Heart.  Wapwallopen, PA: Shepherd's Press, 1995. <br><br>
 
 			VanVonderen, Jeff.  Families Where Grace is the Place.  Minneapolis: Bethany House Publishers, 1992. <br><br>
 		</div>
@@ -299,7 +299,7 @@
 
 			Carson, D.A.  A Call to Spiritual Reformation: Priorities from Paul and His Prayers.  Grand Rapids: Baker Books, 1992. <br><br>
 
-			Chapell, Bryan.  Praying Backwards: Transform Your Prayer Life by Beginning in Jesus’ Name.  Grand Rapids: Baker, 2005. <br><br>
+			Chapell, Bryan.  Praying Backwards: Transform Your Prayer Life by Beginning in Jesus' Name.  Grand Rapids: Baker, 2005. <br><br>
 
 			Cranmer, Thomas.  The Collects of Thomas Cranmer.  Compiled and presented for devotional use by C. Frederick Barbee and Paul F. M. Zahl.  Grand Rapids: Eerdmans, 1999. <br><br>
 
@@ -311,7 +311,7 @@
 
 			The Valley of Vision: A Collection of Puritan Prayers and Devotions.  Edited by Arthur Bennett.  Edinburgh, UK: Banner of Truth Trust, 2009. <br><br>
 
-			Watson, Thomas.  The Lord’s Prayer.  Carlisle, PA: Banner of Truth, 1960. <br><br>
+			Watson, Thomas.  The Lord's Prayer.  Carlisle, PA: Banner of Truth, 1960. <br><br>
 
 			Watts, Isaac.  A Guide to Prayer.  Edinburgh: Banner of Truth, 2001. <br><br>
 		</div>

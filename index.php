@@ -88,7 +88,7 @@
 					<div class = "title">About us</div>
 					<div class = "aboutContent">
 						<p>
-							Thanks so much for visiting Gospel of Grace’s web site. A word of introduction would be
+							Thanks so much for visiting Gospel of Grace's web site. A word of introduction would be
 						in order. That is a bit of a challenge, though. There are so many ways we could introduce
 						ourselves to you. We could introduce ourselves by explaining to you what we believe. If we
 						would do such, we likely would speak of our being a Christian, Reformed and Presbyterian
@@ -106,7 +106,7 @@
 						more about how we worship, please visit our <a href="/about/#worship">Worship page</a>.
 						</p>
 						<p>
-							We could and certain should introduce ourselves to you on a more personal level. We
+							We could and certainly should introduce ourselves to you on a more personal level. We
 						are not just a set of beliefs, a church polity or a way of worshipping our Lord. We are also a
 						community of believers who strive to love the Lord and each other. While we place a strong
 						emphasis upon sound doctrine, we also emphasize the need to live out our beliefs in our day to

@@ -16,7 +16,7 @@
 
 		<div class = "email pastor">
 			<span class = "emailTitle">Pastor:</span> pastorbltaylor@yahoo.com 
-			<a class = "emailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=pastorbltaylor@yahoo.com" target = none title = "Open with g-mail"><i class="far fa-envelope"></i>
+			<a class = "emailLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=pastorbltaylor@hotmail.com" target = none title = "Open with g-mail"><i class="far fa-envelope"></i>
 
 </a>
 		</div>

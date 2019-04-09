@@ -1,6 +1,6 @@
 <?php include '../includes/header.php'; ?>
 
-<link rel="stylesheet" type="text/css" href="/contact/css/contact.css">
+<link rel="stylesheet" type="text/css" href="/newWebsite/contact/css/contact.css">
 
 
 <div class = "contactTitle">Get in touch</div>
@@ -38,7 +38,7 @@
 
 </div>
 
-<script type="text/javascript" src = "/contact/js/contact.js"></script>
+<script type="text/javascript" src="/newWebsite/contact/js/contact.js"></script>
 
 
 <?php include '../includes/footer.php'; ?>

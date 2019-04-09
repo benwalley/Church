@@ -1,5 +1,5 @@
 <?php include '../includes/header.php'; ?>
-<link rel="stylesheet" type="text/css" href="/learn/css/learning.css">
+<link rel="stylesheet" type="text/css" href="/newWebsite/learn/css/learning.css">
 
 <div class = "topImage">Educational Resources</div>
 
@@ -32,5 +32,5 @@
 <?php include 'library.html'; ?>
 <?php include 'links.html'; ?>
 
-<script type="text/javascript" src = "/learn/js/learning.js"></script>
+<script type="text/javascript" src="/newWebsite/learn/js/learning.js"></script>
 <?php include '../includes/footer.php'; ?>

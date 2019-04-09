@@ -4,7 +4,7 @@ body {
   margin: 0; }
 
 .topImage {
-  background-image: url("/includes/images/bible2.png");
+  background-image: url("/newWebsite/includes/images/bible2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

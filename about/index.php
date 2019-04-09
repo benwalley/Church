@@ -1,6 +1,6 @@
 <?php include '../includes/header.php'; ?>
 
-<link rel="stylesheet" type="text/css" href="/about/css/about.css">
+<link rel="stylesheet" type="text/css" href="/newWebsite/about/css/about.css">
 
 <div class = "topImage">About Us</div>
 
@@ -49,7 +49,7 @@
 	<?php include 'families.html'; ?>
 </div>
 
-<script type="text/javascript" src = "/about/js/about.js"></script>
+<script type="text/javascript" src="/newWebsite/about/js/about.js"></script>
 
 <?php include '../includes/footer.php'; ?>
 

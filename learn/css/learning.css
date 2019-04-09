@@ -19,7 +19,7 @@ body {
     cursor: pointer; }
 
   .topImage {
-    background-image: url("/includes/images/study.jpg");
+    background-image: url("/newWebsite/includes/images/study.jpg");
     width: 100vw;
     height: 60vh;
     background-size: cover;
@@ -55,7 +55,7 @@ body {
     cursor: pointer; }
 
   .topImage {
-    background-image: url("/includes/images/study.jpg");
+    background-image: url("/newWebsite/includes/images/study.jpg");
     width: 100vw;
     height: 50vh;
     background-size: cover;
@@ -90,16 +90,16 @@ body {
   background: #3c4341eb !important; }
 
 .recommended .linkImage {
-  background-image: url("/includes/images/books.jpg"); }
+  background-image: url("/newWebsite/includes/images/books.jpg"); }
 
 .membership .linkImage {
-  background-image: url("/includes/images/Baptism.jpg"); }
+  background-image: url("/newWebsite/includes/images/Baptism.jpg"); }
 
 .library .linkImage {
-  background-image: url("/includes/images/library.jpg"); }
+  background-image: url("/newWebsite/includes/images/library.jpg"); }
 
 .outsideLinks .linkImage {
-  background-image: url("/includes/images/links.jpg"); }
+  background-image: url("/newWebsite/includes/images/links.jpg"); }
 
 @media screen and (min-width: 769px) and (orientation: landscape) {
   .mainContentSection {

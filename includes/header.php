@@ -4,7 +4,7 @@
 <html>
 <head>
 	<title>Gospel of Grace Church</title>
-	<link rel="stylesheet" type="text/css" href="/includes/css/header.css">
+	<link rel="stylesheet" type="text/css" href="/newWebsite/includes/css/header.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
@@ -34,11 +34,11 @@
 				</div>
 				
 				<div class = "navLinks">
-					<a class = "navLink" href="/"><span class = "activeLink navLinkSpan">Home</span></a>
-					<a class = "navLink" href="/about"><span class = "navLinkSpan">About Us</span></a>
-					<a class = "navLink" href="/sermons"><span class = "navLinkSpan">Sermons</span></a>
-					<a class = "navLink" href="/learn"><span class = "navLinkSpan">learning</span></a>
-					<a class = "navLink" href="/contact"><span class = "navLinkSpan">Contact</span></a>
+					<a class = "navLink" href="/newWebsite/"><span class = "activeLink navLinkSpan">Home</span></a>
+					<a class = "navLink" href="/newWebsite/about"><span class = "navLinkSpan">About Us</span></a>
+					<a class = "navLink" href="/newWebsite/sermons"><span class = "navLinkSpan">Sermons</span></a>
+					<a class = "navLink" href="/newWebsite/learn"><span class = "navLinkSpan">learning</span></a>
+					<a class = "navLink" href="/newWebsite/contact"><span class = "navLinkSpan">Contact</span></a>
 						
 					</div>
 

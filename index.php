@@ -2,7 +2,7 @@
 
 <?php include 'includes/header.php'; ?>
 <!-- css for main page -->
-<link rel="stylesheet" type="text/css" href="/css/home.css">
+<link rel="stylesheet" type="text/css" href="/newWebsite/css/home.css">
 
 
 				
@@ -41,7 +41,7 @@
 			<div class = "homeSchedule">
 
 				<div class = "scheduleLeft">
-					<img class = "scheduleImage" src="/includes/images/pastor1.1.jpg">
+					<img class = "scheduleImage" src="/newWebsite/includes/images/pastor1.1.jpg">
 				</div>
 
 				<div class = "scheduleRight">
@@ -93,7 +93,7 @@
 						ourselves to you. We could introduce ourselves by explaining to you what we believe. If we
 						would do such, we likely would speak of our being a Christian, Reformed and Presbyterian
 						church. That might mean something to you or it might not. To get a good idea of how these
-						three words describe us, you might want to visit our <a href="/about/#beliefs">Belief page</a>.
+						three words describe us, you might want to visit our <a href="/newWebsite/about/#beliefs">Belief page</a>.
 						</p>
 						<p>
 							We could introduce ourselves to you by how we worship our Lord. If you are familiar
@@ -103,7 +103,7 @@
 						with us on this point. But we add one further wrinkle that is a bit more unique to us. We only
 						do those things which the Scripture commands us to do. By keeping our services within these
 						two boundary lines, we believe our worship is biblically sound and honoring to our Lord. For
-						more about how we worship, please visit our <a href="/about/#worship">Worship page</a>.
+						more about how we worship, please visit our <a href="/newWebsite/about/#worship">Worship page</a>.
 						</p>
 						<p>
 							We could and certainly should introduce ourselves to you on a more personal level. We
@@ -111,13 +111,13 @@
 						community of believers who strive to love the Lord and each other. While we place a strong
 						emphasis upon sound doctrine, we also emphasize the need to live out our beliefs in our day to
 						day lives. We make it our goal, then, to glorify the Lord in our conduct and speech. For more
-						information about our little community, please see the <a href="/about/#makingFriends">Making Friends</a> and <a href="/about/#forFamilies">For Families page</a>.
+						information about our little community, please see the <a href="/newWebsite/about/#makingFriends">Making Friends</a> and <a href="/about/#forFamilies">For Families page</a>.
 						</p>
 						<p>
 							Well, there is only so much a web site can do to introduce one person to another.
 						However much technology advances, it will never replace personal encounter when it comes to
 						getting to know one another. So, we invite you to come and meet us in person. For more
-						information about further contacting us or for directions to our church, please see the <a href="/contact">Contact
+						information about further contacting us or for directions to our church, please see the <a href="/newWebsite/contact">Contact
 						Us</a> page or <a href="#directions">Driving Directions</a>. We so do appreciate your taking the time to visit our web
 						page.
 						</p>
@@ -126,7 +126,7 @@
 			</div>
 			<div class = "weAreArpc">
 						<a href="http://arpchurch.org">
-							<img class = "arpcImage" src="/includes/images/arpc.png">
+							<img class = "arpcImage" src="/newWebsite/includes/images/arpc.png">
 						</a>
 							<span class = "larger">Gospel of Grace Church,</span> <br> is a member of the 
 							<a href="http://arpchurch.org" target = "_blank">Associate Reformed Presbyterian (ARP)</a>
@@ -148,13 +148,13 @@
 							<a href="https:/www.google.com/maps/search/?api=1&query=600%20S%20jefferson%20Ave%20Springfield%20M0" target = "none">Open in google maps </a>
 						</div>
 					</div>
-					<img class = "canopyImage" src="/includes/images/canopy.jpg">
+					<img class = "canopyImage" src="/newWebsite/includes/images/canopy.jpg">
 				</div>
 
 				<iframe id = "map" class = "map map2" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=600%20S%20jefferson%20Ave%20Springfield%20M0&key=AIzaSyCJ-0V2LMqjyOCOvCMveZBOxhMsH_gbI-0" allowfullscreen></iframe>
 
 			</div>
 
-<script type="text/javascript" src = "/scripts/home.js"></script>
+<script type="text/javascript" src="/newWebsite/scripts/home.js"></script>
 <?php include 'includes/footer.php'; ?>
 

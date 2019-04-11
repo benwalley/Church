@@ -28,9 +28,9 @@
 
 				</div>
 				<!-- IF WE WANT A BOUNCING ARROW, UNCOMMENT THIS -->
-				<div class = "arrow bounce">
+		<!-- 		<div class = "arrow bounce">
 					<i class="fas fa-chevron-down"></i>
-				</div>
+				</div> -->
 				
 			</div>	
 

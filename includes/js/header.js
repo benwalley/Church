@@ -11,14 +11,16 @@ var links = $(".navLinks")[0];
 var navLinks = $(".navLinkSpan");
 var navLink = $(".navLink");
 var navbarColor = "#3c4341";
-var breakpoint = 768
+var breakpoint = 768;
+var blur = $(".blur");
 
 var windowSize;
 
 function init(){
 	// remove listeners from navLinks
-	navLink.off()
-	$(".hamburger").off()
+	navLink.off();
+	$(".hamburger").off();
+	blur.off();
 
 	if(menuDown){hamburgerClicked()}
 	// clear the mobileScroll interval
@@ -40,7 +42,7 @@ function init(){
 		desktopScroll()
 	// if it is portrait
 	}else{
-		links.style.display = "none"
+		links.style.left = "-101%"
 		navMobile()
 		windowSize = "mobile";
 
@@ -48,49 +50,25 @@ function init(){
 	}
 }
 
-
-
-
-	
-
-
-
-
-
 function navMobile(){
 	navbar.style.background = navbarColor
 
-	hamburger.addEventListener("click", hamburgerClicked)
-	// every quarter second
-	mobileInterval = setInterval(function(){
-		// if I scrolled
-		if(didScroll){
-			// If I scrolled down
-
-			if($(window).scrollTop() > currentScroll){
-				if(menuDown){hamburgerClicked()}
-				navbar.style.top = "-150px"
-				hamburger.style.top = "-150px"
-
-			}else if($(window).scrollTop() < currentScroll){
-
-				navbar.style.top = "0px";
-				hamburger.style.top = "0px";
-			}
-			currentScroll = $(window).scrollTop();
-
-			didScroll = false;
-		}
-	},250)
+	hamburger.addEventListener("click", hamburgerClicked);
+	blur.click(function(e) {
+		e.stopPropagation();
+		hamburgerClicked();
+	})
 }
 
 function hamburgerClicked(){
 	
 	if(menuDown){
-		links.style.display = "none"
+		links.style.left = "-101%"
+		blur.css("display", "none");
 		menuDown = false;
 	}else{
-		links.style.display = "block"
+		links.style.left = "0"
+		blur.css("display", "block");
 		menuDown = true
 	}
 }

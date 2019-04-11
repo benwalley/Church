@@ -6,46 +6,56 @@
 		$getID3 = new getID3;
 	?> 
 
-	<h1>Sermons</h1>
+	
 
 	<!-- get all subdirectories of ./audio to get all year options -->
-	<?php
-		$directories = glob('./audio' . '/*' , GLOB_ONLYDIR);
-	?>
-	<select>
-		<option>Year</option>
-		<?php foreach($directories as $dir): ?>
-			<?php $trimmedDir = substr($dir, -4); ?>
-			<!-- Make sure the directory is a year by making sure it starts with 20 -->
-			<?php if(substr($trimmedDir, 0, 2) == '20'): ?>
-				<?php echo '<option value="' . $trimmedDir . '">' . $trimmedDir . '</option>' ?>
-			<?php endif ?>
-		<?php endforeach ?>
-	</select>
+	
 	<!-- TODO: Add search functionality -->
-<div class = "sermonsDiv">
-	<div class="sermons-header sermon"><span class="sermons-header-date">Date</span><span class="sermons-header-title">Title</span><span class="sermons-header-passage">Passage</span></div>
-	<?php $year = date("Y"); ?>
-	<?php $files = scandir("./audio/" . $year); ?>
-	<?php foreach($files as $file): ?>
-		<?php if($file !== "." && $file !== ".."): ?>
-			<?php
-				$href = './audio/' . $year . '/' . $file;
-				$date = substr($file, 0, 8);
+<div class="main">
+	<h1>Sermons</h1>
+	<div class = "sermonsDiv">
+		<input type="text" name="sermon-search" placeholder="Search by date, title or verse" id="sermon-search">
+		<?php
+			$directories = glob('./audio' . '/*' , GLOB_ONLYDIR);
+			$directories = array_reverse($directories);
+		?>
+		
+		<?php foreach($directories as $dir): ?>
+				<?php $trimmedDir = substr($dir, -4); ?>
+				<!-- Make sure the directory is a year by making sure it starts with 20 -->
+				<?php if(substr($trimmedDir, 0, 2) == '20'): ?>
+					<?php 
+						$files = scandir("./audio/" . $trimmedDir); 
+						$files = array_reverse($files) 
+					?>
+					<?php foreach($files as $file): ?>
+						<?php if($file !== "." && $file !== ".."): ?>
+							<?php
+								$href = './audio/' . $trimmedDir . '/' . $file;
+								$date = substr($file, 0, 8);
 
-				$fileData = $getID3->analyze($href);
-				$title = $fileData['tags']['id3v2']['title'][0];
-				$reference = $fileData['tags']['id3v2']['subtitle'][0];
+								$fileData = $getID3->analyze($href);
+								$title = $fileData['tags']['id3v2']['title'][0];
+								$reference = $fileData['tags']['id3v2']['subtitle'][0];
 
-			 	echo 
-			 		'<a href=' . $href .' class="sermon">
-			 			<span class="sermon-date">' . $date . '</span>
-			 			<span class="sermon-title">' . $title . '</span>
-			 			<span class="sermon-reference">' . $reference . '</span>
-			 		</a>' ;
-			?>
-    	<?php endif ?>
-    <?php endforeach ?>
+							 	echo 
+							 		'<div class="sermon">
+							 			<span class="sermon-date">' . $date . '</span>
+							 			<span class="sermon-title">' . $title . '</span>
+							 			<span class="sermon-reference">' . $reference . '</span>
+
+							 			<audio controls="controls" class="audio-player">
+											<source src="' . $href . '" type="audio/mpeg" />
+											Your browser does not support the audio element.
+										</audio>
+							 		</div>'
+							 		;
+							?>
+				    	<?php endif ?>
+				    <?php endforeach ?>
+				<?php endif ?>
+			<?php endforeach ?>
+	</div>
 </div>
 <script type="text/javascript" src="/newWebsite/sermons/js/sermons.js"></script>
 <?php include '../includes/footer.php'; ?> 

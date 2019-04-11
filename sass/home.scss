@@ -147,7 +147,7 @@ body{
 		display:block;
 		position:absolute;
 		left:0;
-		top:50%;
+		top:45%;
 
 		.imageButton{
 			border:2px solid white;
@@ -155,13 +155,13 @@ body{
 			text-transform:uppercase;
 			color:white;
 			text-align:center;
-			font-size:5vw;
+			font-size:16px;
 			letter-spacing:0.1em;
 			font-weight:bold;
 			padding:2vh;
 			border-radius:2px;
 			width:80vw;
-			margin:6vw 10vw;
+			margin:20px 10vw;
 			float:left;
 			-moz-transition: all .1s ease-in .02s;
 		    /* WebKit */
@@ -248,7 +248,7 @@ body{
 
 	.homeLarge{
 		font-weight:bold;
-		font-size:10vw;
+		font-size:40px;
 		color:#f6f6f6;
 		//color:#B27D00;
 		padding:2.6vw;

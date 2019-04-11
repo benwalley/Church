@@ -23,9 +23,10 @@
 
 <body>
 	<div class = "header">
+		<div class="blur"></div>
 			<div class = "navbar">
 				<div class = "logo">	
-					<a href = "/" >
+					<a href = "/newWebsite/" >
 						<span class = "logoLarge">Gospel</span>
 						<span class = "logoSmall">of</span>
 						<span class = "logoLarge">Grace</span>

@@ -3,11 +3,7 @@
 <?php include 'includes/header.php'; ?>
 <!-- css for main page -->
 <link rel="stylesheet" type="text/css" href="/newWebsite/css/home.css">
-
-
-				
-		
-
+		<div class="mainContainer">
 			<div class = "mainImage">
 
 				<div class = "homeVerse">
@@ -33,11 +29,6 @@
 				</div> -->
 				
 			</div>	
-
-
-
-
-
 			<div class = "homeSchedule">
 
 				<div class = "scheduleLeft">
@@ -66,8 +57,6 @@
 					</div>
 				</div>
 		<!-- 		<div class = "homeBar"></div> -->
-				
-
 				
 			</div>
 
@@ -154,6 +143,7 @@
 				<iframe id = "map" class = "map map2" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=600%20S%20jefferson%20Ave%20Springfield%20M0&key=AIzaSyCJ-0V2LMqjyOCOvCMveZBOxhMsH_gbI-0" allowfullscreen></iframe>
 
 			</div>
+		</div>
 
 <script type="text/javascript" src="/newWebsite/scripts/home.js"></script>
 <?php include 'includes/footer.php'; ?>

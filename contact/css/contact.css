@@ -5,7 +5,7 @@ body {
   background: #3c4341 !important; }
 
 .contactTitle {
-  background-image: url("/newWebsite/includes/images/contactTree.jpg");
+  background-image: url("/includes/images/contactTree.jpg");
   width: 100vw;
   height: 50vh;
   position: absolute;
@@ -19,17 +19,15 @@ body {
   background-size: cover;
   background-color: yellow;
   background-position: bottom;
-  font-size: 3em;
+  font-size: 75px;
   text-align: center;
   padding-top: 20vh;
   color: #EEEEEE;
-  text-transform: uppercase; }
-
-.emailLink {
-  color: red;
-  padding: .5vw;
-  font-size: 2em;
-  float: right; }
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
+  color: white;
+  letter-spacing: 5px; }
 
 .contactMain {
   float: left;
@@ -38,6 +36,20 @@ body {
   margin-top: 50vh;
   background: #bfae94;
   color: #313131; }
+
+@media (max-width: 769px) {
+  .contactTitle {
+    font-size: 40px;
+    height: 30vh;
+    padding-top: 12vh; }
+
+  .contactMain {
+    margin-top: 30vh; } }
+.emailLink {
+  color: red;
+  padding: .5vw;
+  font-size: 2em;
+  float: right; }
 
 .address {
   text-align: center;

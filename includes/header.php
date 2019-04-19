@@ -1,10 +1,5 @@
 
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Gospel of Grace Church</title>
-	<link rel="stylesheet" type="text/css" href="/newWebsite/includes/css/header.css">
+	<link rel="stylesheet" type="text/css" href="/includes/css/header.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
@@ -19,6 +14,15 @@
 	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	  crossorigin="anonymous">
 	</script>
+
+	<!-- favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -26,7 +30,7 @@
 		<div class="blur"></div>
 			<div class = "navbar">
 				<div class = "logo">	
-					<a href = "/newWebsite/" >
+					<a href = "/" >
 						<span class = "logoLarge">Gospel</span>
 						<span class = "logoSmall">of</span>
 						<span class = "logoLarge">Grace</span>
@@ -35,11 +39,11 @@
 				</div>
 				
 				<div class = "navLinks">
-					<a class = "navLink" href="/newWebsite/"><span class = "activeLink navLinkSpan">Home</span></a>
-					<a class = "navLink" href="/newWebsite/about"><span class = "navLinkSpan">About Us</span></a>
-					<a class = "navLink" href="/newWebsite/sermons"><span class = "navLinkSpan">Sermons</span></a>
-					<a class = "navLink" href="/newWebsite/learn"><span class = "navLinkSpan">learning</span></a>
-					<a class = "navLink" href="/newWebsite/contact"><span class = "navLinkSpan">Contact</span></a>
+					<a class = "navLink" href="/"><span class = "activeLink navLinkSpan">Home</span></a>
+					<a class = "navLink" href="/about"><span class = "navLinkSpan">About Us</span></a>
+					<a class = "navLink" href="/sermons"><span class = "navLinkSpan">Sermons</span></a>
+					<a class = "navLink" href="/learn"><span class = "navLinkSpan">learning</span></a>
+					<a class = "navLink" href="/contact"><span class = "navLinkSpan">Contact</span></a>
 						
 					</div>
 

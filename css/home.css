@@ -40,7 +40,7 @@ body {
     z-index: -1; } }
 .image {
   width: 100%;
-  background-image: url("/newWebsite/includes/images/bible.jpg");
+  background-image: url("/includes/images/bible.jpg");
   height: 100%;
   background-size: cover;
   -ms-background-position-x: center;
@@ -137,7 +137,10 @@ body {
     font-size: 6rem;
     color: #f6f6f6;
     padding: 2.6vw;
-    letter-spacing: .2em; }
+    text-shadow: 2px 2px 8px black;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px; }
 
   .arrow {
     display: none; } }
@@ -229,7 +232,7 @@ body {
   .about {
     float: left;
     width: 100vw;
-    background: url("/newWebsite/includes/images/piano.png");
+    background: url("/includes/images/piano.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -270,7 +273,8 @@ body {
   .about {
     float: left;
     width: 100vw;
-    background: url("/newWebsite/includes/images/piano.jpg");
+    background: #989898;
+    background: url("/includes/images/piano_mobile.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -292,7 +296,7 @@ body {
     .aboutBottom .title {
       width: 100%;
       text-align: center;
-      font-size: 3em;
+      font-size: 30px;
       text-transform: uppercase;
       padding: 2vw; } }
 .mainBackground {
@@ -348,7 +352,7 @@ body {
       color: #B28409;
       font-family: "Open Sans", sans-serif;
       margin-bottom: 8vh;
-      font-size: 0.6em;
+      font-size: 18px;
       line-height: initial; }
     .weAre .larger {
       font-size: 1.5em;
@@ -480,7 +484,6 @@ body {
       background: #356eea;
       color: white;
       padding: 15px 15%;
-      border: 6px solid white;
       border-radius: 2px;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -639,7 +642,7 @@ body {
         color: #282828;
         text-align: center;
         margin-top: 3vh;
-        font-size: 2.5em; }
+        font-size: 30px; }
 
   .mapLink {
     padding: 3vh;

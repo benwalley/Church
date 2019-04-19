@@ -4,7 +4,7 @@
 </div>
 
 
-<script type="text/javascript" src="/newWebsite/includes/js/header.js"></script>
+<script type="text/javascript" src="/includes/js/header.js"></script>
 
 
 </body>

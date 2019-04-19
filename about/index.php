@@ -1,33 +1,53 @@
-<?php include '../includes/header.php'; ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="Learn about who we are and what we belive at Gospel of Grace Church. Our primary standard is the Bible. 
+	We believe the Bible is the foundational and ultimate authority for the Christian faith and life. 
+	Without the Bible the church and all men are lost; with the Bible the Holy Spirit powerfully leads men to find God through Jesus Christ.">
+	<link rel="stylesheet" type="text/css" href="/about/css/about.css">
+	
+	<title>About Gospel of Grace Church</title>
 
-<link rel="stylesheet" type="text/css" href="/newWebsite/about/css/about.css">
+	<?php include '../includes/header.php'; ?>
 
 <div class = "topImage">About Us</div>
 
 <div class = "aboutLinks">
 	<a class = "aboutLink" href="#beliefs">
-		<div class = "linkImage"><i class="fas fa-church"></i></div>
-		<div class = "linkName">Beliefs</div>
+		<div class="linkContent">
+			<div class = "linkImage"><i class="fas fa-church"></i></div>
+			<div class = "linkName">Beliefs</div>
+		</div>
 	</a>
 	<a class = "aboutLink" href="#vision">
-		<div class = "linkImage"><i class="fas fa-eye"></i></div>
-		<div class = "linkName">Vision</div>
+		<div class="linkContent">
+			<div class = "linkImage"><i class="fas fa-eye"></i></div>
+			<div class = "linkName">Vision</div>
+		</div>
 	</a>
 	<a class = "aboutLink" href="#leadership">
-		<div class = "linkImage"><i class="fas fa-users"></i></div>
-		<div class = "linkName">Leadership</div>
+		<div class="linkContent">
+			<div class = "linkImage"><i class="fas fa-users"></i></div>
+			<div class = "linkName">Leadership</div>
+		</div>
 	</a>
 	<a class = "aboutLink" href="#worship">
-		<div class = "linkImage"><i class="fas fa-hands"></i></div>
-		<div class = "linkName">Worship</div>
+		<div class="linkContent">
+			<div class = "linkImage"><i class="fas fa-hands"></i></div>
+			<div class = "linkName">Worship</div>
+		</div>
 	</a>
 	<a class = "aboutLink" href="#makingFriends">
-		<div class = "linkImage"><i class="fas fa-user-friends"></i></div>
-		<div class = "linkName">Making Friends</div>
+		<div class="linkContent">
+			<div class = "linkImage"><i class="fas fa-user-friends"></i></div>
+			<div class = "linkName">Making Friends</div>
+		</div>
 	</a>
 	<a class = "aboutLink" href="#forFamilies">
-		<div class = "linkImage"><i class="fas fa-child"></i></div>
-		<div class = "linkName">For Families</div>
+		<div class="linkContent">
+			<div class = "linkImage"><i class="fas fa-child"></i></div>
+			<div class = "linkName">For Families</div>
+		</div>
 	</a>
 </div>
 
@@ -49,7 +69,7 @@
 	<?php include 'families.html'; ?>
 </div>
 
-<script type="text/javascript" src="/newWebsite/about/js/about.js"></script>
+<script type="text/javascript" src="/about/js/about.js"></script>
 
 <?php include '../includes/footer.php'; ?>
 

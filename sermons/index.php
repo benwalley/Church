@@ -1,6 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="Listen to or download past sermons from Gospel of Grace Church">
+<link rel="stylesheet" type="text/css" href="/sermons/css/sermons.css">
+
+<title>Sermons</title>
+
 <?php include '../includes/header.php'; ?>
 
-<link rel="stylesheet" type="text/css" href="/newWebsite/sermons/css/sermons.css">
 	<?php
 		require_once('./getid3/getid3.php');
 		$getID3 = new getID3;
@@ -82,6 +89,6 @@
 			
 	</div>
 </div>
-<script type="text/javascript" src="/newWebsite/sermons/js/sermons.js"></script>
+<script type="text/javascript" src="/sermons/js/sermons.js"></script>
 <?php include '../includes/footer.php'; ?> 
 

@@ -49,7 +49,7 @@
 
                 </div>
                 <?php if(isBannerEnabled()): ?>
-                    <?php echo htmlspecialchars_decode (getData(BANNER_CONTENTS_FILE)); ?>
+                    <?php echo htmlspecialchars_decode(getData(BANNER_CONTENTS_FILE), ENT_HTML5); ?>
                 <?php endif; ?>
 
 					<div class = "hamburger">

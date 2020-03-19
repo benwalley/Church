@@ -10,7 +10,7 @@
     <?php require_once __DIR__ . '/dataMethods.php';?>
 
     <div class="mainContent">
-        <?php echo htmlspecialchars_decode (getData(IFRAME_FILE)); ?>
+        <?php echo htmlspecialchars_decode(getData(IFRAME_FILE), ENT_HTML5); ?>
     </div>
 
 <?php include '../includes/footer.php'; ?>

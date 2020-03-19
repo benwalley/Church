@@ -1,8 +1,8 @@
 <?php
-const IFRAME_FILE = __DIR__ . '../../data/iframe.txt';
-const BANNER_ENABLE_FILE = __DIR__ . '../../data/enable.txt';
-const BANNER_CONTENTS_FILE = __DIR__ . '../../data/banner-content.txt';
-const PASSWORD = '!!avX7scJErz3Ka-dhaktLbdLLsW!vyE3kKjWrB387sVHEKtvG6Bfznky8KKGKUo';
+define("IFRAME_FILE", __DIR__ . '../../data/iframe.txt');
+define("BANNER_ENABLE_FILE", __DIR__ . '../../data/enable.txt');
+define("BANNER_CONTENTS_FILE", __DIR__ . '../../data/banner-content.txt');
+define("PASSWORD", '!!avX7scJErz3Ka-dhaktLbdLLsW!vyE3kKjWrB387sVHEKtvG6Bfznky8KKGKUo');
 
 /**
  * @param $file

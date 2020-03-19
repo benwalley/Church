@@ -36,10 +36,10 @@ function setData($file, $data)
 function isBannerEnabled()
 {
     $checkValue = getData(BANNER_ENABLE_FILE);
-    if (!$checkValue || $checkValue == "off") {
-        return false;
-    } else {
+    if ($checkValue &&  !($checkValue == "off")) {
         return true;
+    } else {
+        return false;
     }
 }
 

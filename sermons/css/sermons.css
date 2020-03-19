@@ -36,7 +36,8 @@ body {
       padding: 5px; }
     .sermon .sermon-title {
       text-align: center;
-      font-weight: bold; }
+      font-weight: bold;
+      color: black; }
     .sermon .sermon-reference {
       text-align: right; }
     .sermon:hover {
@@ -54,7 +55,8 @@ body {
     margin-bottom: 10px;
     background: white; }
     .sermon span {
-      padding: 5px; }
+      padding: 5px;
+      color: black; }
     .sermon .sermon-title {
       grid-column: 1 / span 2;
       grid-row-start: 1;

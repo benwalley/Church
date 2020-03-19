@@ -41,6 +41,18 @@
          <input type="submit"/>
       </form>
 
+      <div>
+         <h2>Instructions</h2>
+         <p>Click Choose file, and select an mp3 file.</p>
+         <p>File Name should be in the format, <span>mm-dd-yy_sermon.mp3</span></p>
+         <p>Title (metadata) should be what you want the title of the sermon to display as.</p>
+         <p>Subtitle (metadata) should be the scripture(s) that the sermon is from.</p>
+
+         <p>Enter the password, and click Submit</p>
+         <p>It may take a few minutes for the upload to finish. Do not close the page until the upload finishes</p>
+
+      </div>
+
 </div>
 
 <?php include '../../includes/footer.php'; ?>

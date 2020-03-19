@@ -1,3 +1,13 @@
+.banner {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #F1DE3A;
+  padding: 10px;
+  text-align: center; }
+  .banner .banner-link {
+    color: #1b3184;
+    text-decoration: underline; }
+
 * {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */

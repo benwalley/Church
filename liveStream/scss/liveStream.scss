@@ -1,0 +1,28 @@
+.mainContent {
+    margin-top: 150px;
+    min-height: 90vh;
+    text-align: center;
+
+    iframe {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 700px;
+        max-height: 60vw;
+        display: block;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+    }
+
+    a {
+        color: #6A88FB;
+        text-decoration: underline;
+    }
+}
+
+
+
+

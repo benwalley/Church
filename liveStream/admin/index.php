@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/learn/css/learning.css">
 
     <title>Live Stream Admin</title>
-    <link rel="stylesheet" href="./admin/css/admin.css">
+    <link rel="stylesheet" href="/liveStream/admin/css/admin.css">
     <?php include '../../includes/header.php'; ?>
 
     <?php require_once __DIR__ . '/../dataMethods.php';?>

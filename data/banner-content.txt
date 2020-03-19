@@ -1,5 +1,5 @@
-&lt;div class=&quot;banner&quot;&gt;
+&lt;div class="banner"&gt;
                     For our live streamed sermons, join us Sunday afternoon at 12:15pm
-                    &lt;a class=&quot;banner-link&quot; target=&quot;_bland&quot; href=&quot; https://www.facebook.com/groups/82431870815/&quot;&gt;on facebook&lt;/a&gt;
-                    or &lt;a class=&quot;banner-link&quot; href=&quot;/liveStream&quot;&gt;on our Live Stream page&lt;/a&gt;
+                    &lt;a class="banner-link" target="_bland" href=" https://www.facebook.com/groups/82431870815/"&gt;on facebook&lt;/a&gt;
+                    or &lt;a class="banner-link" href="/liveStream"&gt;on our Live Stream page&lt;/a&gt;
                 &lt;/div&gt;

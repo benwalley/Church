@@ -15,8 +15,8 @@
     // code for when post is hit and password is correct
         if (!empty($_POST) && $_POST['password'] === PASSWORD)
         {
-            isset($_POST['iframe']) ? setData(IFRAME_FILE, htmlspecialchars($_POST['iframe'], ENT_HTML5)) : setData(IFRAME_FILE, "");
-            isset($_POST['banner-content']) ? setData(BANNER_CONTENTS_FILE,htmlspecialchars($_POST['banner-content'], ENT_HTML5)) : setData(BANNER_CONTENTS_FILE, "");
+            isset($_POST['iframe']) ? setData(IFRAME_FILE, htmlspecialchars($_POST['iframe'])) : setData(IFRAME_FILE, "");
+            isset($_POST['banner-content']) ? setData(BANNER_CONTENTS_FILE,htmlspecialchars($_POST['banner-content'])) : setData(BANNER_CONTENTS_FILE, "");
             isset($_POST['banner-enabled']) ? setData(BANNER_ENABLE_FILE, $_POST['banner-enabled']) : setData( BANNER_ENABLE_FILE, "off");
         }
         else // $_POST is empty.

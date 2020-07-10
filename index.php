@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/css/home.css">
-<meta name="description" content="Gospel of Grace Church is a Reformed Presbyterian church in Springfield Missouri. 
+<meta name="description" content="Gospel of Grace Church is a Reformed Presbyterian church in Springfield Missouri.
 Worshipping the triune God of grace,
 Discipling the community of grace, and
 reaching the lost with the gospel of grace.">
@@ -19,10 +19,10 @@ reaching the lost with the gospel of grace.">
 					<div class = "homeLarge">Welcome</div>
 					We would love to meet you
 				</div>
-				
+
 				<!-- If God is for us, who can be against us? -->
 
-				
+
 				<!-- <div class = "imageCoverColor"></div> -->
 				<div class = "image"></div>
 				<div class = "imageButtons">
@@ -36,8 +36,8 @@ reaching the lost with the gospel of grace.">
 		<!-- 		<div class = "arrow bounce">
 					<i class="fas fa-chevron-down"></i>
 				</div> -->
-				
-			</div>	
+
+			</div>
 			<div class = "homeSchedule">
 
 				<div class = "scheduleLeft">
@@ -48,25 +48,28 @@ reaching the lost with the gospel of grace.">
 					<div class = "Schedule">
 						<div class = "Title">Sunday Morning</div>
 						<ul class = "Times">
+                            <li>
+                                <div style="color: #ff4040;" class="time">Adjusted Schedule due to COVID-19</div>
+                            </li>
 							<li>
-								<div class = "time">10:30 - 11:00: Coffee & Fellowship</div>
-								<div class = "description">Join us beforehand for a time of coffee and Fellowship</div>
+								<div style="color: #a9a9a9; text-decoration: line-through" class = "time">10:30 - 11:00: Coffee & Fellowship</div>
+								<div style="color: #a9a9a9; text-decoration: line-through" class = "description">Join us beforehand for a time of coffee and Fellowship</div>
 							</li>
 							<li>
-								<div class = "time">11:00 - 11:45: Sunday School Classes</div>
-								<div class = "description">We have Sunday School classes for all ages</div>
-							</li>	
+								<div style="color: #a9a9a9; text-decoration: line-through" class = "time">11:00 - 11:45: Sunday School Classes</div>
+								<div style="color: #a9a9a9; text-decoration: line-through" class = "description">We have Sunday School classes for all ages</div>
+							</li>
 							<li class = "Last">
 								<div class = "time">12:15 - 1:30: Worship</div>
 								<div class = "description">Worship: including singing, and preaching.</div>
-							</li>						
+							</li>
 							<a href="#directions">Directions<i class="fas fa-map-marker-alt"></i></a>
 						</ul>
-						
+
 					</div>
 				</div>
 		<!-- 		<div class = "homeBar"></div> -->
-				
+
 			</div>
 
 			<div class = "about">
@@ -119,14 +122,14 @@ reaching the lost with the gospel of grace.">
 						Us</a> page or <a href="#directions">Driving Directions</a>. We so do appreciate your taking the time to visit our web
 						page.
 						</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class = "weAreArpc">
 						<a href="http://arpchurch.org">
 							<img class = "arpcImage" src="/includes/images/arpc.png">
 						</a>
-							<span class = "larger">Gospel of Grace Church,</span> <br> is a member of the 
+							<span class = "larger">Gospel of Grace Church,</span> <br> is a member of the
 							<a href="http://arpchurch.org" target = "_blank">Associate Reformed Presbyterian (ARP)</a>
 						 Church.
 					</div>

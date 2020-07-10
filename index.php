@@ -29,6 +29,7 @@ reaching the lost with the gospel of grace.">
 					<div></div>
 					<a href = "#about" class = "imageButton imageAbout">About Us</a>
 					<a href = "#directions" class = "imageButton imageDirections">Get Directions</a>
+					<a href = "https://abundant.co/generalsynodarpchurc/GospelofGrace" class = "imageButton imageOnlineGiving">Online Giving</a>
 					<div></div>
 
 				</div>
@@ -48,7 +49,7 @@ reaching the lost with the gospel of grace.">
 					<div class = "Schedule">
 						<div class = "Title">Sunday Morning</div>
 						<ul class = "Times">
-                            <li>
+							<li>
                                 <div style="color: #ff4040;" class="time">Adjusted Schedule due to COVID-19</div>
                             </li>
 							<li>
@@ -150,6 +151,7 @@ reaching the lost with the gospel of grace.">
 						</div>
 					</div>
 					<img class = "canopyImage" src="/includes/images/canopy.jpg">
+					<p class="full-width">Enter through the East Entrance</p>
 				</div>
 
 				<iframe id = "map" class = "map map2" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=600%20S%20jefferson%20Ave%20Springfield%20M0&key=AIzaSyCJ-0V2LMqjyOCOvCMveZBOxhMsH_gbI-0" allowfullscreen></iframe>
